@@ -1,5 +1,30 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.stageButton {
+    flex: 1;
+    padding: 1em;
+    margin: .2em;
+}
+
+.panel-default > .panel-heading > .galaxy, .stageButtonBar > .galaxy  {
+    background-color: #9EC5E9;
+}
+.panel-default > .panel-heading > .lucky, .stageButtonBar > .lucky {
+    background-color: #FCEA7C;
+}
+.panel-default > .panel-heading > .mthood, .stageButtonBar > .mthood {
+    background-color: #D26A62;
+}
+.panel-default > .panel-heading > .starlight, .stageButtonBar > .starlight {
+    background-color: #B997FF;
+}
+.panel-default > .panel-heading > .treeline, .stageButtonBar > .treeline {
+    background-color: #FF752A;
+}
+.panel-default > .panel-heading > .wood, .stageButtonBar > .wood {
+    background-color: #B2DE65;
 }

@@ -1,12 +1,6 @@
 import React from 'react'
 import { Navbar, Row, Col, Button, FormGroup, FormControl } from 'react-bootstrap';
 import {
-    GALAXY_BARN_COLOR,
-    LUCKY_BARN_COLOR,
-    MT_HOOD_STAGE_COLOR,
-    STARLIGHT_STAGE_COLOR,
-    TREELINE_STAGE_COLOR,
-    WOOD_STAGE_COLOR,
     GALAXY_BARN,
     LUCKY_BARN,
     MT_HOOD_STAGE,
@@ -16,18 +10,8 @@ import {
 } from '../constants'
 
 export function PageHeader(props) {
-    const {
-        buttonBarStyle,
-        button,
-        galaxyStyle,
-        luckyStyle,
-        mtHoodStyle,
-        starlightStyle,
-        treelineStyle,
-        woodStyle,
-    } = styles
-
     const { onStageFilterClick } = props
+    const { buttonBarStyle } = styles
 
     return (<Navbar fixedTop>
         <Navbar.Header>
@@ -38,18 +22,18 @@ export function PageHeader(props) {
             </Navbar.Collapse>
         </Navbar.Header>
         <Navbar.Form>
-            <FormGroup style={buttonBarStyle}>
-                <Button style={{...galaxyStyle, ...button}}
+            <FormGroup style={buttonBarStyle} className={'stageButtonBar'}>
+                <Button className={'galaxy stageButton'}
                     onClick={() => onStageFilterClick(GALAXY_BARN)} />
-                <Button style={{...luckyStyle, ...button}}
+                <Button className={'lucky stageButton'}
                     onClick={() => onStageFilterClick(LUCKY_BARN)} />
-                <Button style={{...mtHoodStyle, ...button}}
+                <Button className={'mthood stageButton'}
                     onClick={() => onStageFilterClick(MT_HOOD_STAGE)} />
-                <Button style={{...starlightStyle, ...button}}
+                <Button className={'starlight stageButton'}
                     onClick={() => onStageFilterClick(STARLIGHT_STAGE)} />
-                <Button style={{...treelineStyle, ...button}}
+                <Button className={'treeline stageButton'}
                     onClick={() => onStageFilterClick(TREELINE_STAGE)} />
-                <Button style={{...woodStyle, ...button}}
+                <Button className={'wood stageButton'}
                     onClick={() => onStageFilterClick(WOOD_STAGE)} />
             </FormGroup>
         </Navbar.Form>
@@ -62,28 +46,5 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         width: '100%',
-    },
-    button: {
-        flex: 1,
-        padding: '1em',
-        margin: '.2em',
-    },
-    galaxyStyle: {
-        backgroundColor: GALAXY_BARN_COLOR,
-    },
-    luckyStyle: {
-        backgroundColor: LUCKY_BARN_COLOR,
-    },
-    mtHoodStyle: {
-        backgroundColor: MT_HOOD_STAGE_COLOR,
-    },
-    starlightStyle: {
-        backgroundColor: STARLIGHT_STAGE_COLOR,
-    },
-    treelineStyle: {
-        backgroundColor: TREELINE_STAGE_COLOR,
-    },
-    woodStyle: {
-        backgroundColor: WOOD_STAGE_COLOR,
     }
 }
