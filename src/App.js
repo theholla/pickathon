@@ -41,7 +41,7 @@ class App extends Component {
         })
 
         const stageFilter = {
-            GALAXY_BARN: true,
+            GALAXY_BARN: false,
             LUCKY_BARN: false,
             MT_HOOD_STAGE: false,
             STARLIGHT_STAGE: false,
@@ -78,8 +78,19 @@ class App extends Component {
         return Object.values(eventDictionary)
     }
 
+    renderEmptyState(eventArray) {
+        if (!eventArray.length) {
+            console.log('nope')
+            return <p>
+                Click a stage name to filter events by stage
+            </p>
+        }
+    }
+
     render() {
         const eventArray = this.toEventArray(this.state.eventDictionary)
+            .filter(event => this.filterStages(event.stageId))
+            .map(details => Event(details))
 
         return (
             <div>
@@ -87,9 +98,8 @@ class App extends Component {
                 <Row className={'page-content'}>
                     <Col sm={3}></Col>
                     <Col sm={6}>
-                        {eventArray
-                            .filter(event => this.filterStages(event.stageId))
-                            .map(details => Event(details))}
+                        {eventArray}
+                        {this.renderEmptyState(eventArray)}
                     </Col>
                     <Col sm={3}></Col>
                 </Row>
