@@ -81,7 +81,6 @@ class App extends Component {
 
     renderEmptyState(eventArray) {
         if (!eventArray.length) {
-            console.log('nope')
             return <p>
                 Click a stage name to filter events by stage
             </p>
