@@ -4,6 +4,7 @@ import uuid from 'uuid/v4'
 import schedule from './masterschedule.json'
 import { Event } from './components/Event'
 import { PageHeader } from './components/PageHeader'
+import moment from 'moment'
 import {
     GALAXY_BARN,
     LUCKY_BARN,
@@ -87,9 +88,14 @@ class App extends Component {
         }
     }
 
+    filterOutOldEvents(endDateTime) {
+        return moment(endDateTime).utc() > moment().utc()
+    }
+
     render() {
         const eventArray = this.toEventArray(this.state.eventDictionary)
             .filter(event => this.filterStages(event.stageId))
+            .filter(event => this.filterOutOldEvents(event.endDateTime))
             .map(details => Event(details))
 
         return (
