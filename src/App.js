@@ -80,7 +80,7 @@ class App extends Component {
 
         return (
             <div>
-                <PageHeader onStageFilterClick={this.onStageFilterClick.bind(this)} />
+                <PageHeader onStageFilterClick={this.onStageFilterClick.bind(this)} stageFilter={this.state.stageFilter} />
                 <Row style={pageBody}>
                     <Col sm={0} md={3}></Col>
                     <Col sm={12} md={6}>
@@ -97,7 +97,7 @@ class App extends Component {
 
 const styles = {
     pageBody: {
-        marginTop: 100
+        marginTop: 125
     }
 }
 

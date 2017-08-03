@@ -10,8 +10,15 @@ import {
 } from '../constants'
 
 export function PageHeader(props) {
-    const { onStageFilterClick } = props
     const { buttonBarStyle } = styles
+    const { onStageFilterClick, stageFilter } = props
+
+    function isOn(stageId) {
+        if (stageFilter[stageId]) {
+            return ' showStage'
+        }
+        return ''
+    }
 
     return (<Navbar fixedTop>
         <Navbar.Header>
@@ -23,18 +30,18 @@ export function PageHeader(props) {
         </Navbar.Header>
         <Navbar.Form>
             <FormGroup style={buttonBarStyle} className={'stageButtonBar'}>
-                <Button className={'galaxy stageButton'}
-                    onClick={() => onStageFilterClick(GALAXY_BARN)} />
-                <Button className={'lucky stageButton'}
-                    onClick={() => onStageFilterClick(LUCKY_BARN)} />
-                <Button className={'mthood stageButton'}
-                    onClick={() => onStageFilterClick(MT_HOOD_STAGE)} />
-                <Button className={'starlight stageButton'}
-                    onClick={() => onStageFilterClick(STARLIGHT_STAGE)} />
-                <Button className={'treeline stageButton'}
-                    onClick={() => onStageFilterClick(TREELINE_STAGE)} />
-                <Button className={'wood stageButton'}
-                    onClick={() => onStageFilterClick(WOOD_STAGE)} />
+                <Button className={'galaxy stageButton' + isOn(GALAXY_BARN)}
+                    onClick={() => onStageFilterClick(GALAXY_BARN)} >GLXY</Button>
+                <Button className={'lucky stageButton' + isOn(LUCKY_BARN)}
+                    onClick={() => onStageFilterClick(LUCKY_BARN)} >LCKY</Button>
+                <Button className={'mthood stageButton' + isOn(MT_HOOD_STAGE)}
+                    onClick={() => onStageFilterClick(MT_HOOD_STAGE)} >HOOD</Button>
+                <Button className={'starlight stageButton' + isOn(STARLIGHT_STAGE)}
+                    onClick={() => onStageFilterClick(STARLIGHT_STAGE)} >STAR</Button>
+                <Button className={'treeline stageButton' + isOn(TREELINE_STAGE)}
+                    onClick={() => onStageFilterClick(TREELINE_STAGE)} >TREE</Button>
+                <Button className={'wood stageButton' + isOn(WOOD_STAGE)}
+                    onClick={() => onStageFilterClick(WOOD_STAGE)} >WOOD</Button>
             </FormGroup>
         </Navbar.Form>
     </Navbar>)
