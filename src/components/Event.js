@@ -1,5 +1,13 @@
 import React from 'react';
 import { Panel, Row, Col } from 'react-bootstrap'
+import {
+    GALAXY_BARN,
+    LUCKY_BARN,
+    MT_HOOD_STAGE,
+    STARLIGHT_STAGE,
+    TREELINE_STAGE,
+    WOOD_STAGE,
+} from '../constants'
 
 export function Event(props) {
     const {
@@ -12,7 +20,8 @@ export function Event(props) {
         day,
         gig,
         onClick,
-        isSelected
+        isSelected,
+        stageId
     } = props;
 
     function getStyles() {
@@ -22,13 +31,25 @@ export function Event(props) {
         }
     }
 
+    function getStageClass(stageId) {
+        switch (stageId) {
+            case GALAXY_BARN: return 'galaxy'
+            case LUCKY_BARN: return 'lucky'
+            case MT_HOOD_STAGE: return 'mthood'
+            case STARLIGHT_STAGE: return 'starlight'
+            case TREELINE_STAGE: return 'treeline'
+            case WOOD_STAGE: return 'wood'
+            default: return ''
+        }
+    }
+
     return (
         <Panel
             style={getStyles(isSelected)}
             onClick={onClick}
             header={artist}
             key={uuid}
-        >
+            className={getStageClass(stageId)}>
             <Row>
                 <Col md={9}>
                     {day} {startTime} - {endTime}<br/>
@@ -43,6 +64,6 @@ export function Event(props) {
 
 const styles = {
     selectedStyle: {
-        fontWeight: 'bold'
+        border: '2px solid #43464'
     }
 }
