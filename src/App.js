@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import schedule from './masterschedule.json';
-import { Jumbotron, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { Event } from './components/Event';
 import uuid from 'uuid/v4';
+import { PageHeader } from './components/PageHeader';
 
 class App extends Component {
     constructor(props) {
@@ -35,15 +36,12 @@ class App extends Component {
 
     render() {
         const eventArray = this.toEventArray(this.state.eventDictionary)
-        const { jumboStyle } = styles
+        const { pageBody } = styles
 
         return (
             <div>
-                <Jumbotron style={jumboStyle}>
-                    <h1>Lil' Sched</h1>
-                    <p>A super fast Pickathon schedule explorer</p>
-                </Jumbotron>
-                <Row>
+                <PageHeader />
+                <Row style={pageBody}>
                     <Col sm={0} md={3}></Col>
                     <Col sm={12} md={6}>
                         {eventArray.map(details => Event(details))}
@@ -56,8 +54,8 @@ class App extends Component {
 }
 
 const styles = {
-    jumboStyle: {
-        padding: 20
+    pageBody: {
+        marginTop: 100
     }
 }
 

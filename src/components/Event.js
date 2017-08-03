@@ -1,10 +1,11 @@
 import React from 'react';
-import { Panel } from 'react-bootstrap'
+import { Panel, Row, Col } from 'react-bootstrap'
 
 export function Event(props) {
     const {
         artist,
         ageLimit,
+        uuid,
         location,
         startTime,
         endTime,
@@ -20,16 +21,22 @@ export function Event(props) {
             return selectedStyle
         }
     }
+
     return (
         <Panel
             style={getStyles(isSelected)}
             onClick={onClick}
             header={artist}
+            key={uuid}
         >
-
-            {day} {startTime} - {endTime}<br/>
-            {location}<br/>
-            Gig: {gig}
+            <Row>
+                <Col md={9}>
+                    {day} {startTime} - {endTime}<br/>
+                    {location}<br/>
+                    Gig: {gig}
+                </Col>
+                <Col md={3}></Col>
+            </Row>
         </Panel>
     )
 }
