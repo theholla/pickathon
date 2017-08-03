@@ -17,7 +17,7 @@ export function PageHeader(props) {
         if (stageFilter[stageId]) {
             return ' showStage'
         }
-        return ''
+        return
     }
 
     return (<Navbar fixedTop>
@@ -31,17 +31,17 @@ export function PageHeader(props) {
         <Navbar.Form>
             <FormGroup style={buttonBarStyle} className={'stageButtonBar'}>
                 <Button className={'galaxy stageButton' + isOn(GALAXY_BARN)}
-                    onClick={() => onStageFilterClick(GALAXY_BARN)} >GLXY</Button>
+                    onClick={() => onStageFilterClick(GALAXY_BARN)} >glxy</Button>
                 <Button className={'lucky stageButton' + isOn(LUCKY_BARN)}
-                    onClick={() => onStageFilterClick(LUCKY_BARN)} >LCKY</Button>
+                    onClick={() => onStageFilterClick(LUCKY_BARN)} >lcky</Button>
                 <Button className={'mthood stageButton' + isOn(MT_HOOD_STAGE)}
-                    onClick={() => onStageFilterClick(MT_HOOD_STAGE)} >HOOD</Button>
+                    onClick={() => onStageFilterClick(MT_HOOD_STAGE)} >hood</Button>
                 <Button className={'starlight stageButton' + isOn(STARLIGHT_STAGE)}
-                    onClick={() => onStageFilterClick(STARLIGHT_STAGE)} >STAR</Button>
+                    onClick={() => onStageFilterClick(STARLIGHT_STAGE)} >star</Button>
                 <Button className={'treeline stageButton' + isOn(TREELINE_STAGE)}
-                    onClick={() => onStageFilterClick(TREELINE_STAGE)} >TREE</Button>
+                    onClick={() => onStageFilterClick(TREELINE_STAGE)} >tree</Button>
                 <Button className={'wood stageButton' + isOn(WOOD_STAGE)}
-                    onClick={() => onStageFilterClick(WOOD_STAGE)} >WOOD</Button>
+                    onClick={() => onStageFilterClick(WOOD_STAGE)} >wood</Button>
             </FormGroup>
         </Navbar.Form>
     </Navbar>)

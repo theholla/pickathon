@@ -4,6 +4,10 @@ body {
     font-family: sans-serif;
 }
 
+.navbar-form {
+    padding: 0;
+}
+
 .stageButton {
     flex: 1;
     padding: .3em;
