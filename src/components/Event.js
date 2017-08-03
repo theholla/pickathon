@@ -26,7 +26,9 @@ export function Event(props) {
             onClick={onClick}
             header={artist}
         >
-            {startTime} - {endTime}<br/>
+
+            {day} {startTime} - {endTime}<br/>
+            {location}<br/>
             Gig: {gig}
         </Panel>
     )
@@ -34,6 +36,6 @@ export function Event(props) {
 
 const styles = {
     selectedStyle: {
-        backgroundColor: 'red'
+        fontWeight: 'bold'
     }
 }
