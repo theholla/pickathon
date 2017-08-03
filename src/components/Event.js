@@ -9,13 +9,27 @@ export function Event(props) {
         endTime,
         day,
         gig,
+        onClick,
+        isSelected
     } = props;
 
+    function getStyles() {
+      const { selectedStyle } = styles
+      if (isSelected) {
+        return selectedStyle
+      }
+    }
     return (
-        <p>
+        <p style={getStyles(isSelected)} onClick={onClick}>
             {artist}<br/>
             {startTime} - {endTime}<br/>
             Gig: {gig}
         </p>
     )
+}
+
+const styles = {
+  selectedStyle: {
+    backgroundColor: 'red'
+  }
 }

@@ -5,26 +5,47 @@ import { Event } from './components/Event';
 import uuid from 'uuid/v4';
 
 class App extends Component {
-    getInitialState(schedule) {
-        return schedule.map(event => {
-            event.uuid = uuid()
-            return event
-        })
-    }
     constructor(props) {
         super(props)
-        const newSchedule = this.getInitialState(schedule)
-        this.state = { schedule: newSchedule }
+        const eventDictionary = {}
+        const eventArray = schedule.map(event => {
+            const id = uuid()
+            event.uuid = id
+            event.isSelected = false
+            event.onClick = this.onEventClick.bind(this, id)
+            eventDictionary[id] = event
+            return event
+        })
+        this.state = { eventDictionary }
+    }
+
+    getScheduleArray(eventDictionary) {
+        return Object.values(eventDictionary)
+    }
+
+    onEventClick(eventUuid) {
+        this.setState(prevState => {
+            console.log(prevState)
+            const isSelected = prevState.eventDictionary[eventUuid].isSelected
+            prevState.eventDictionary[eventUuid].isSelected = !isSelected
+            return prevState
+        })
+    }
+
+    toEventArray(eventDictionary) {
+        return Object.values(eventDictionary)
     }
 
     render() {
-        const { schedule } = this.state
+        const { eventDictionary } = this.state
+        const eventArray = this.toEventArray(eventDictionary)
+        console.log(eventArray)
         return (
             <div>
                 <div>
                     Lil' Sched
                 </div>
-                {schedule.map(details => Event(details))}
+                {eventArray.map(details => Event(details))}
             </div>
         )
     }
