@@ -1,4 +1,5 @@
 import React from 'react';
+import { Panel } from 'react-bootstrap'
 
 export function Event(props) {
     const {
@@ -14,22 +15,25 @@ export function Event(props) {
     } = props;
 
     function getStyles() {
-      const { selectedStyle } = styles
-      if (isSelected) {
-        return selectedStyle
-      }
+        const { selectedStyle } = styles
+        if (isSelected) {
+            return selectedStyle
+        }
     }
     return (
-        <p style={getStyles(isSelected)} onClick={onClick}>
-            {artist}<br/>
+        <Panel
+            style={getStyles(isSelected)}
+            onClick={onClick}
+            header={artist}
+        >
             {startTime} - {endTime}<br/>
             Gig: {gig}
-        </p>
+        </Panel>
     )
 }
 
 const styles = {
-  selectedStyle: {
-    backgroundColor: 'red'
-  }
+    selectedStyle: {
+        backgroundColor: 'red'
+    }
 }

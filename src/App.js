@@ -1,33 +1,30 @@
 import React, { Component } from 'react';
 import schedule from './masterschedule.json';
-import { Row, Col } from 'react-bootstrap';
+import { Jumbotron, Row, Col } from 'react-bootstrap';
 import { Event } from './components/Event';
 import uuid from 'uuid/v4';
 
 class App extends Component {
     constructor(props) {
         super(props)
+
+        // enhance event dictionary
         const eventDictionary = {}
-        const eventArray = schedule.map(event => {
+        schedule.forEach(event => {
             const id = uuid()
             event.uuid = id
             event.isSelected = false
             event.onClick = this.onEventClick.bind(this, id)
             eventDictionary[id] = event
-            return event
         })
+
         this.state = { eventDictionary }
     }
 
-    getScheduleArray(eventDictionary) {
-        return Object.values(eventDictionary)
-    }
-
-    onEventClick(eventUuid) {
+    onEventClick(uuid) {
         this.setState(prevState => {
-            console.log(prevState)
-            const isSelected = prevState.eventDictionary[eventUuid].isSelected
-            prevState.eventDictionary[eventUuid].isSelected = !isSelected
+            const isSelected = prevState.eventDictionary[uuid].isSelected
+            prevState.eventDictionary[uuid].isSelected = !isSelected
             return prevState
         })
     }
@@ -37,18 +34,31 @@ class App extends Component {
     }
 
     render() {
-        const { eventDictionary } = this.state
-        const eventArray = this.toEventArray(eventDictionary)
-        console.log(eventArray)
+        const eventArray = this.toEventArray(this.state.eventDictionary)
+        const { jumboStyle } = styles
+
         return (
             <div>
-                <div>
-                    Lil' Sched
-                </div>
-                {eventArray.map(details => Event(details))}
+                <Jumbotron style={jumboStyle}>
+                    <h1>Lil' Sched</h1>
+                    <p>A super fast Pickathon schedule explorer</p>
+                </Jumbotron>
+                <Row>
+                    <Col sm={0} md={3}></Col>
+                    <Col sm={12} md={6}>
+                        {eventArray.map(details => Event(details))}
+                    </Col>
+                    <Col sm={0} md={3}></Col>
+                </Row>
             </div>
         )
     }
 }
 
-export default App;
+const styles = {
+    jumboStyle: {
+        padding: 20
+    }
+}
+
+export default App
