@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import schedule from './masterschedule.json';
-import { Row, Col } from 'react-bootstrap';
-import { Event } from './components/Event';
-import uuid from 'uuid/v4';
-import { PageHeader } from './components/PageHeader';
+import React, { Component } from 'react'
+import { Row, Col } from 'react-bootstrap'
+import uuid from 'uuid/v4'
+import schedule from './masterschedule.json'
+import { Event } from './components/Event'
+import { PageHeader } from './components/PageHeader'
 import {
     GALAXY_BARN,
     LUCKY_BARN,
@@ -49,7 +49,10 @@ class App extends Component {
             WOOD_STAGE: false,
         }
 
-        this.state = { eventDictionary, stageFilter }
+        this.state = {
+            eventDictionary,
+            stageFilter,
+        }
     }
 
     onEventClick(uuid) {

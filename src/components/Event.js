@@ -12,7 +12,6 @@ import {
 export function Event(props) {
     const {
         artist,
-        ageLimit,
         uuid,
         location,
         startTime,
@@ -24,11 +23,10 @@ export function Event(props) {
         stageId
     } = props;
 
-    function getStyles() {
-        const { selectedStyle } = styles
-        if (isSelected) {
-            return selectedStyle
-        }
+    function getEventClass(isSelected) {
+        let className = ''
+        if (isSelected) className = ' selected-event'
+        return className
     }
 
     function getStageClass(stageId) {
@@ -45,25 +43,18 @@ export function Event(props) {
 
     return (
         <Panel
-            style={getStyles(isSelected)}
             onClick={onClick}
             key={uuid}
-            className={getStageClass(stageId)}
+            className={`${getStageClass(stageId)} ${getEventClass(isSelected)}`}
             header={artist}>
             <Row>
-                <Col md={9}>
+                <Col sm={9}>
                     {day} {startTime} - {endTime}<br/>
                     {location}<br/>
                     Gig: {gig}
                 </Col>
-                <Col md={3}></Col>
+                <Col sm={3}></Col>
             </Row>
         </Panel>
     )
-}
-
-const styles = {
-    selectedStyle: {
-        border: '2px solid #43464'
-    }
 }

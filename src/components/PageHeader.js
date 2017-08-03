@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Row, Col, Button, FormGroup, FormControl } from 'react-bootstrap'
+import { Navbar, Button, FormGroup } from 'react-bootstrap'
 import {
     GALAXY_BARN,
     LUCKY_BARN,
@@ -23,7 +23,7 @@ export function PageHeader(props) {
         <Navbar.Header>
             <Navbar.Collapse>
                 <Navbar.Brand>
-                    Pickathon Lil Sched
+                    Pickathon Quick Sched
                 </Navbar.Brand>
             </Navbar.Collapse>
         </Navbar.Header>
