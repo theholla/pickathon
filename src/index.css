@@ -4,41 +4,82 @@ body {
     font-family: sans-serif;
 }
 
+.page-content {
+    margin-top: 100px;        
+}
+
+@media (max-width: 760px) {
+    .page-content {
+        margin-top: 50px;        
+    }
+}
+
 .navbar-form {
     padding: 0;
 }
 
-.stageButton {
-    flex: 1;
-    padding: .3em;
-    margin: .2em;
-}
-.stageButton.showStage {
-    border: .3em solid rgba(67, 70, 75, 1) !important
+.navbar-form > .stage-button-bar {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
-.stageButton {
-    border: .3em solid rgba(67, 70, 75, 0) !important
+.stage-button {
+    flex: 1;
+    padding: .3em;
+    border-radius: 0;
+    border-color: none;
+    border: none;
 }
+
+.stage-button.show-stage {
+    border-top: .2em solid rgba(67, 70, 75, 1);
+    border-bottom: .2em solid rgba(67, 70, 75, 1);
+    border-right: .14em solid rgba(67, 70, 75, 1);
+    border-left: .14em solid rgba(67, 70, 75, 1);
+    font-weight: 500;
+}
+
 .btn:focus, .btn:active, .btn:hover {
     outline: none;
-    box-shadow: inset 0 3px 5px rgba(0,0,0,0);
+    box-shadow: none;
 }
-.galaxy > .panel-heading, .stageButtonBar > .galaxy  {
-    background-color: #9EC5E9;
+
+.galaxy > .panel-heading, .stage-button-bar > .galaxy  {
+    background-color: rgba(158,197,233,1);
 }
-.lucky > .panel-heading, .stageButtonBar > .lucky {
-    background-color: #FCEA7C;
+.lucky > .panel-heading, .stage-button-bar > .lucky {
+    background-color: rgba(252,234,124,1);
 }
-.mthood > .panel-heading, .stageButtonBar > .mthood {
-    background-color: #D26A62;
+.mthood > .panel-heading, .stage-button-bar > .mthood {
+    background-color: rgba(210,106,98,1);
 }
-.starlight > .panel-heading, .stageButtonBar > .starlight {
-    background-color: #B997FF;
+.starlight > .panel-heading, .stage-button-bar > .starlight {
+    background-color: rgba(185,151,255,1);
 }
-.treeline > .panel-heading, .stageButtonBar > .treeline {
-    background-color: #FF752A;
+.treeline > .panel-heading, .stage-button-bar > .treeline {
+    background-color: rgba(255,117,42,1);
 }
-.wood > .panel-heading, .stageButtonBar > .wood {
-    background-color: #B2DE65;
+.wood > .panel-heading, .stage-button-bar > .wood {
+    background-color: rgba(178,222,101,1);
+}
+
+.galaxy > .panel-body  {
+    background-color: rgba(158,197,233,.2);
+}
+.lucky > .panel-body {
+    background-color: rgba(252,234,124,.2);
+}
+.mthood > .panel-body {
+    background-color: rgba(210,106,98,.2);
+}
+.starlight > .panel-body {
+    background-color: rgba(185,151,255,.2);
+}
+.treeline > .panel-body {
+    background-color: rgba(255,117,42,.2);
+}
+.wood > .panel-body {
+    background-color: rgba(178,222,101,.2);
 }

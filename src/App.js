@@ -39,13 +39,14 @@ class App extends Component {
             event.stageId = mapLocationToStageId(event.location)
             eventDictionary[id] = event
         })
+
         const stageFilter = {
             GALAXY_BARN: true,
-            LUCKY_BARN: true,
-            MT_HOOD_STAGE: true,
-            STARLIGHT_STAGE: true,
-            TREELINE_STAGE: true,
-            WOOD_STAGE: true,
+            LUCKY_BARN: false,
+            MT_HOOD_STAGE: false,
+            STARLIGHT_STAGE: false,
+            TREELINE_STAGE: false,
+            WOOD_STAGE: false,
         }
 
         this.state = { eventDictionary, stageFilter }
@@ -76,28 +77,21 @@ class App extends Component {
 
     render() {
         const eventArray = this.toEventArray(this.state.eventDictionary)
-        const { pageBody } = styles
 
         return (
             <div>
                 <PageHeader onStageFilterClick={this.onStageFilterClick.bind(this)} stageFilter={this.state.stageFilter} />
-                <Row style={pageBody}>
-                    <Col sm={0} md={3}></Col>
-                    <Col sm={12} md={6}>
+                <Row className={'page-content'}>
+                    <Col sm={3}></Col>
+                    <Col sm={6}>
                         {eventArray
                             .filter(event => this.filterStages(event.stageId))
                             .map(details => Event(details))}
                     </Col>
-                    <Col sm={0} md={3}></Col>
+                    <Col sm={3}></Col>
                 </Row>
             </div>
         )
-    }
-}
-
-const styles = {
-    pageBody: {
-        marginTop: 125
     }
 }
 

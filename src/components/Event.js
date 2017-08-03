@@ -47,9 +47,9 @@ export function Event(props) {
         <Panel
             style={getStyles(isSelected)}
             onClick={onClick}
-            header={artist}
             key={uuid}
-            className={getStageClass(stageId)}>
+            className={getStageClass(stageId)}
+            header={artist}>
             <Row>
                 <Col md={9}>
                     {day} {startTime} - {endTime}<br/>
