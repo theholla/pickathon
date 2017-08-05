@@ -50,9 +50,12 @@ class App extends Component {
             WOOD_STAGE: false,
         }
 
+        const searchParams = "";
+
         this.state = {
             eventDictionary,
             stageFilter,
+            searchParams,
         }
     }
 
@@ -64,6 +67,10 @@ class App extends Component {
         })
     }
 
+    handleSearchChange(event) {
+        this.setState({searchParams: event.target.value})
+    }
+
     onStageFilterClick(stage) {
         this.setState(prevState => {
             const isToggled = prevState.stageFilter[stage]
@@ -73,6 +80,14 @@ class App extends Component {
 
     filterStages(stageId) {
         return this.state.stageFilter[stageId]
+    }
+
+    filterSeachParams(artist) {
+        const searchParams = this.state.searchParams
+        if (searchParams.length >= 2) {
+          const name = artist.toLowerCase()
+          return name.includes(searchParams)
+        }
     }
 
     toEventArray(eventDictionary) {
@@ -96,6 +111,10 @@ class App extends Component {
             .filter(event => this.filterStages(event.stageId))
             .filter(event => this.filterOutOldEvents(event.endDateTime))
             .map(details => Event(details))
+        const searchResultsArray = this.toEventArray(this.state.eventDictionary)
+            .filter(event => this.filterSeachParams(event.artist))
+            .filter(event => this.filterOutOldEvents(event.endDateTime))
+            .map(details => Event(details))
 
         return (
             <div>
@@ -105,6 +124,19 @@ class App extends Component {
                     <Col sm={6}>
                         {eventArray}
                         {this.renderEmptyState(eventArray)}
+                    </Col>
+                    <Col sm={3}></Col>
+                </Row>
+                <Row className={'page-content'}>
+                    <Col sm={3}></Col>
+                    <Col sm={6}>
+                        <form>
+                            <label>
+                                Search:
+                                <input type="text" onChange={this.handleSearchChange.bind(this)}/>
+                            {searchResultsArray}
+                            </label>
+                        </form>
                     </Col>
                     <Col sm={3}></Col>
                 </Row>
