@@ -131,12 +131,11 @@ class App extends Component {
                     <Col sm={3}></Col>
                     <Col sm={6}>
                         <form>
-                            <label>
-                                Search:
-                                <input type="text" onChange={this.handleSearchChange.bind(this)}/>
-                            {searchResultsArray}
+                            <label className={'search-container'}>
+                                <input className={'search-input'} type="text" placeholder="search by artist" onChange={this.handleSearchChange.bind(this)}/>
                             </label>
                         </form>
+                        {searchResultsArray}
                     </Col>
                     <Col sm={3}></Col>
                 </Row>
