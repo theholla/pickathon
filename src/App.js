@@ -86,7 +86,8 @@ class App extends Component {
         const searchParams = this.state.searchParams
         if (searchParams.length >= 2) {
           const name = artist.toLowerCase()
-          return name.includes(searchParams)
+          const params = searchParams.toLowerCase()
+          return name.includes(params)
         }
     }
 
