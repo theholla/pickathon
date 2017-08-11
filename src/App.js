@@ -104,7 +104,7 @@ class App extends Component {
     }
 
     filterOutOldEvents(endDateTime) {
-        return moment(endDateTime).utc() > moment().utc()
+        return moment(endDateTime).utc() > moment().subtract(1, 'week').utc()
     }
 
     render() {
