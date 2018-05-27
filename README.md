@@ -1,6 +1,6 @@
 # Pickathon Quick Schedule Explorer
 
-As Pickathon enthusiasts, we were inspired to create this unofficial quick schedule explorer when we noticed slow load times on the festival website. After work the week before the festival, we created a super-simple, quick loading website designed for use offline on mobile phones. We wanted to be able to quickly find out what band to see and where, and then get off our phones to enjoy the festival.
+This is a super-simple, quick loading website designed for use offline on mobile phones. It's goal is to allow people to quickly find out what band to see and where, and then get off their phones and enjoy the festival.
 
 See the website [here](https://theholla.github.io/).
 
