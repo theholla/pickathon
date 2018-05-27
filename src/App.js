@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import uuid from 'uuid/v4';
-import schedule from './masterschedule.json';
+import schedule from './lib/master-schedule.json';
 import { Event } from './components/Event';
 import { PageHeader } from './components/PageHeader';
 import moment from 'moment';
@@ -12,7 +12,7 @@ import {
   STARLIGHT_STAGE,
   TREELINE_STAGE,
   WOOD_STAGE
-} from './constants';
+} from './lib/constants';
 
 function mapLocationToStageId(location) {
   switch (location) {
@@ -89,7 +89,7 @@ class App extends Component {
     return this.state.stageFilter[stageId];
   }
 
-  filterSeachParams(artist) {
+  filterSearchParams(artist) {
     const searchParams = this.state.searchParams;
     if (searchParams.length >= 2) {
       const name = artist.toLowerCase();
@@ -123,7 +123,7 @@ class App extends Component {
       .filter(event => this.filterOutOldEvents(event.endDateTime))
       .map(details => Event(details));
     const searchResultsArray = this.toEventArray(this.state.eventDictionary)
-      .filter(event => this.filterSeachParams(event.artist))
+      .filter(event => this.filterSearchParams(event.artist))
       .filter(event => this.filterOutOldEvents(event.endDateTime))
       .map(details => Event(details));
 

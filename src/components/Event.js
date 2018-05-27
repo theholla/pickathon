@@ -7,7 +7,7 @@ import {
   STARLIGHT_STAGE,
   TREELINE_STAGE,
   WOOD_STAGE
-} from '../constants';
+} from '../lib/constants';
 
 export function Event(props) {
   const {
