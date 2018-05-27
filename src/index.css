@@ -1,105 +1,107 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+margin: 0;
+padding: 0;
+font-family: sans-serif;
 }
-
+.cool-class {
+    margin-top: 10px;
+}
 .page-content {
-    margin-top: 100px;
+margin-top: 100px;
 }
 
 .search-container {
-    width: 100%;
+width: 100%;
 }
 
 .search-input {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 20px;
+width: 100%;
+padding: 5px;
+margin-bottom: 20px;
 }
 
 @media (max-width: 760px) {
-    .page-content {
-        margin-top: 55px;
-    }
+.page-content {
+    margin-top: 55px;
+}
 }
 
 .row {
-    margin-left: 0px;
-    margin-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
 }
 
 .navbar-form {
-    padding: 0;
+padding: 0;
 }
 
 .navbar-form > .stage-button-bar {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+text-align: center;
+display: flex;
+flex-direction: row;
+width: 100%;
 }
 
 .stage-button {
-    flex: 1;
-    padding: .3em;
-    border-top: .2em solid rgba(0,0,0,0);
-    border-bottom: .2em solid rgba(0,0,0,0);
-    border-right: .14em solid rgba(0,0,0,0);
-    border-left: .14em solid rgba(0,0,0,0);
+flex: 1;
+padding: .3em;
+border-top: .2em solid rgba(0,0,0,0);
+border-bottom: .2em solid rgba(0,0,0,0);
+border-right: .14em solid rgba(0,0,0,0);
+border-left: .14em solid rgba(0,0,0,0);
 }
 
 .stage-button.show-stage {
-    border-top: .2em solid #434643;
-    border-bottom: .2em solid #434643;
-    border-right: .14em solid #434643;
-    border-left: .14em solid #434643;
-    font-weight: 500;
+border-top: .2em solid #434643;
+border-bottom: .2em solid #434643;
+border-right: .14em solid #434643;
+border-left: .14em solid #434643;
+font-weight: 500;
 }
 
 .selected-event {
-    border: 2px solid #434643;
+border: 2px solid #434643;
 }
 
 .btn:focus, .btn:active, .btn:hover {
-    outline: none;
-    box-shadow: none;
+outline: none;
+box-shadow: none;
 }
 
 .galaxy > .panel-heading, .stage-button-bar > .galaxy  {
-    background-color: rgba(158,197,233,1);
+background-color: rgba(158,197,233,1);
 }
 .lucky > .panel-heading, .stage-button-bar > .lucky {
-    background-color: rgba(252,234,124,1);
+background-color: rgba(252,234,124,1);
 }
 .mthood > .panel-heading, .stage-button-bar > .mthood {
-    background-color: rgba(210,106,98,1);
+background-color: rgba(210,106,98,1);
 }
 .starlight > .panel-heading, .stage-button-bar > .starlight {
-    background-color: rgba(185,151,255,1);
+background-color: rgba(185,151,255,1);
 }
 .treeline > .panel-heading, .stage-button-bar > .treeline {
-    background-color: rgba(255,117,42,1);
+background-color: rgba(255,117,42,1);
 }
 .wood > .panel-heading, .stage-button-bar > .wood {
-    background-color: rgba(178,222,101,1);
+background-color: rgba(178,222,101,1);
 }
 
 .galaxy > .panel-body  {
-    background-color: rgba(158,197,233,.2);
+background-color: rgba(158,197,233,.2);
 }
 .lucky > .panel-body {
-    background-color: rgba(252,234,124,.2);
+background-color: rgba(252,234,124,.2);
 }
 .mthood > .panel-body {
-    background-color: rgba(210,106,98,.2);
+background-color: rgba(210,106,98,.2);
 }
 .starlight > .panel-body {
-    background-color: rgba(185,151,255,.2);
+background-color: rgba(185,151,255,.2);
 }
 .treeline > .panel-body {
-    background-color: rgba(255,117,42,.2);
+background-color: rgba(255,117,42,.2);
 }
 .wood > .panel-body {
-    background-color: rgba(178,222,101,.2);
+background-color: rgba(178,222,101,.2);
 }

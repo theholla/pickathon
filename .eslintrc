@@ -1,0 +1,32 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "module": false
+  },
+  "env": {
+    "browser": true
+  },
+  "plugins": [
+    "node",
+    "react",
+    "prettier",
+    "css-modules"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:css-modules/recommended"
+  ],
+  "rules": {
+    "css-modules/no-unused-class": 2,
+    "css-modules/no-undef-class": 2,
+    "prettier/prettier": ["error"],
+    "react/prop-types": ["warn"]
+  }
+}

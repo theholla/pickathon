@@ -1,7 +1,21 @@
 {
   "name": "pickathon",
-  "version": "0.1.0",
-  "author": "Nathan Frost and Diana Holland",
+  "version": "1.0.1",
+  "description": "Mobile-friendly schedule explorer for the Pickathon music festival",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theholla/pickathon.git"
+  },
+  "homepage": "https://github.com/theholla/pickathon",
+  "bugs": "https://github.com/theholla/pickathon/issues",
+  "license": "MIT",
   "dependencies": {
     "moment": "^2.18.1",
     "react": "^15.6.1",
@@ -10,10 +24,16 @@
     "react-scripts": "1.0.10",
     "uuid": "^3.1.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+  "engines": {
+    "node": "8.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-css-modules": "^2.7.5",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2",
+    "prettier": "^1.12.1"
   }
 }
