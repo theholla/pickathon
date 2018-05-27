@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
 import uuid from 'uuid/v4';
 import schedule from './lib/master-schedule.json';
 import { Event } from './components/Event';
@@ -133,17 +132,17 @@ class App extends Component {
           onStageFilterClick={this.onStageFilterClick.bind(this)}
           stageFilter={this.state.stageFilter}
         />
-        <Row className={'page-content'}>
-          <Col sm={3} />
-          <Col sm={6}>
+        <div className={'page-content'}>
+          <div />
+          <div>
             {eventArray}
             {this.renderEmptyState(eventArray)}
-          </Col>
-          <Col sm={3} />
-        </Row>
-        <Row className={'page-content'}>
-          <Col sm={3} />
-          <Col sm={6}>
+          </div>
+          <div />
+        </div>
+        <div className={'page-content'}>
+          <div />
+          <div>
             <form>
               <label className={'search-container'}>
                 <input
@@ -155,9 +154,9 @@ class App extends Component {
               </label>
             </form>
             {searchResultsArray}
-          </Col>
-          <Col sm={3} />
-        </Row>
+          </div>
+          <div />
+        </div>
       </div>
     );
   }

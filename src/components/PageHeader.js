@@ -1,5 +1,4 @@
 import React from 'react';
-import { Navbar, Button, FormGroup } from 'react-bootstrap';
 import {
   GALAXY_BARN,
   LUCKY_BARN,
@@ -20,52 +19,52 @@ export function PageHeader(props) {
   }
 
   return (
-    <Navbar fixedTop>
-      <Navbar.Header>
-        <Navbar.Collapse>
-          <Navbar.Brand>Pickathon Quick Sched</Navbar.Brand>
-        </Navbar.Collapse>
-      </Navbar.Header>
-      <Navbar.Form>
-        <FormGroup className={'stage-button-bar'}>
-          <Button
+    <div>
+      <div>
+        <div>
+          <div>Pickathon Quick Sched</div>
+        </div>
+      </div>
+      <div>
+        <div className={'stage-button-bar'}>
+          <button
             className={'galaxy stage-button' + isOn(GALAXY_BARN)}
             onClick={() => onStageFilterClick(GALAXY_BARN)}
           >
             Galaxy
-          </Button>
-          <Button
+          </button>
+          <button
             className={'lucky stage-button' + isOn(LUCKY_BARN)}
             onClick={() => onStageFilterClick(LUCKY_BARN)}
           >
             Lucky
-          </Button>
-          <Button
+          </button>
+          <button
             className={'mthood stage-button' + isOn(MT_HOOD_STAGE)}
             onClick={() => onStageFilterClick(MT_HOOD_STAGE)}
           >
             Hood
-          </Button>
-          <Button
+          </button>
+          <button
             className={'starlight stage-button' + isOn(STARLIGHT_STAGE)}
             onClick={() => onStageFilterClick(STARLIGHT_STAGE)}
           >
             Star
-          </Button>
-          <Button
+          </button>
+          <button
             className={'treeline stage-button' + isOn(TREELINE_STAGE)}
             onClick={() => onStageFilterClick(TREELINE_STAGE)}
           >
             Tree
-          </Button>
-          <Button
+          </button>
+          <button
             className={'wood stage-button' + isOn(WOOD_STAGE)}
             onClick={() => onStageFilterClick(WOOD_STAGE)}
           >
             Wood
-          </Button>
-        </FormGroup>
-      </Navbar.Form>
-    </Navbar>
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }

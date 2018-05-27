@@ -1,5 +1,4 @@
 import React from 'react';
-import { Panel, Row, Col } from 'react-bootstrap';
 import {
   GALAXY_BARN,
   LUCKY_BARN,
@@ -49,22 +48,22 @@ export function Event(props) {
   }
 
   return (
-    <Panel
+    <div
       onClick={onClick}
       key={uuid}
       className={`${getStageClass(stageId)} ${getEventClass(isSelected)}`}
       header={artist}
     >
-      <Row>
-        <Col sm={9}>
+      <div>
+        <div>
           {day} {startTime} - {endTime}
           <br />
           {location}
           <br />
           Gig: {gig}
-        </Col>
-        <Col sm={3} />
-      </Row>
-    </Panel>
+        </div>
+        <div />
+      </div>
+    </div>
   );
 }
