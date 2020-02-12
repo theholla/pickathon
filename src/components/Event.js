@@ -1,26 +1,8 @@
 import React from 'react';
-import {
-  GALAXY_BARN,
-  LUCKY_BARN,
-  MT_HOOD_STAGE,
-  STARLIGHT_STAGE,
-  TREELINE_STAGE,
-  WOOD_STAGE
-} from '../lib/constants';
+import { GALAXY_BARN, LUCKY_BARN, MT_HOOD_STAGE, STARLIGHT_STAGE, TREELINE_STAGE, WOOD_STAGE } from '../lib/constants';
 
 export function Event(props) {
-  const {
-    artist,
-    uuid,
-    location,
-    startTime,
-    endTime,
-    day,
-    gig,
-    onClick,
-    isSelected,
-    stageId
-  } = props;
+  const { artist, uuid, location, startTime, endTime, day, gig, onClick, isSelected, stageId } = props;
 
   function getEventClass(isSelected) {
     let className = '';
@@ -48,22 +30,13 @@ export function Event(props) {
   }
 
   return (
-    <div
-      onClick={onClick}
-      key={uuid}
-      className={`${getStageClass(stageId)} ${getEventClass(isSelected)}`}
-      header={artist}
-    >
-      <div>
-        <div>
-          {day} {startTime} - {endTime}
-          <br />
-          {location}
-          <br />
-          Gig: {gig}
-        </div>
-        <div />
+    <div onClick={onClick} key={uuid} className={`event ${getStageClass(stageId)} ${getEventClass(isSelected)}`}>
+      <div className={'artist'}>{artist}</div>
+      <div className={'time'}>
+        {day} {startTime} - {endTime}
       </div>
+      <div className={'location'}>{location}</div>
+      <div className={'gig'}>Gig: {gig}</div>
     </div>
   );
 }

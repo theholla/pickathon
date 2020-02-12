@@ -12,17 +12,8 @@
   "env": {
     "browser": true
   },
-  "plugins": [
-    "node",
-    "react",
-    "prettier",
-    "css-modules"
-  ],
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:css-modules/recommended"
-  ],
+  "plugins": ["node", "react", "prettier", "css-modules"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:css-modules/recommended"],
   "rules": {
     "css-modules/no-unused-class": 2,
     "css-modules/no-undef-class": 2,

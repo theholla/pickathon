@@ -9,8 +9,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-03T15:10:00.000-0700",
-    "endDateTime": "2017-08-03T16:10:00.000-0700"
+    "startDateTime": "2020-08-03T15:10:00.000-0700",
+    "endDateTime": "2020-08-03T16:10:00.000-0700"
   },
   {
     "artist": "Susto",
@@ -22,8 +22,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-03T16:50:00.000-0700",
-    "endDateTime": "2017-08-03T17:50:00.000-0700"
+    "startDateTime": "2020-08-03T16:50:00.000-0700",
+    "endDateTime": "2020-08-03T17:50:00.000-0700"
   },
   {
     "artist": "Coco Columbia",
@@ -35,8 +35,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-03T18:30:00.000-0700",
-    "endDateTime": "2017-08-03T19:30:00.000-0700"
+    "startDateTime": "2020-08-03T18:30:00.000-0700",
+    "endDateTime": "2020-08-03T19:30:00.000-0700"
   },
   {
     "artist": "Square Dance with Caroline Oakley",
@@ -48,8 +48,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-03T19:10:00.000-0700",
-    "endDateTime": "2017-08-03T20:10:00.000-0700"
+    "startDateTime": "2020-08-03T19:10:00.000-0700",
+    "endDateTime": "2020-08-03T20:10:00.000-0700"
   },
   {
     "artist": "Charles Bradley & His Extraordinaires",
@@ -61,8 +61,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-03T20:50:00.000-0700",
-    "endDateTime": "2017-08-03T21:50:00.000-0700"
+    "startDateTime": "2020-08-03T20:50:00.000-0700",
+    "endDateTime": "2020-08-03T21:50:00.000-0700"
   },
   {
     "artist": "Mic Capes",
@@ -74,8 +74,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-03T22:00:00.000-0700",
-    "endDateTime": "2017-08-03T23:00:00.000-0700"
+    "startDateTime": "2020-08-03T22:00:00.000-0700",
+    "endDateTime": "2020-08-03T23:00:00.000-0700"
   },
   {
     "artist": "Sweet Spirit",
@@ -87,8 +87,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-03T22:15:00.000-0700",
-    "endDateTime": "2017-08-03T23:10:00.000-0700"
+    "startDateTime": "2020-08-03T22:15:00.000-0700",
+    "endDateTime": "2020-08-03T23:10:00.000-0700"
   },
   {
     "artist": "Luke Bell",
@@ -100,8 +100,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-03T23:40:00.000-0700",
-    "endDateTime": "2017-08-04T00:40:00.000-0700"
+    "startDateTime": "2020-08-03T23:40:00.000-0700",
+    "endDateTime": "2020-08-04T00:40:00.000-0700"
   },
   {
     "artist": "Ron Artis II",
@@ -113,8 +113,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-03T23:40:00.000-0700",
-    "endDateTime": "2017-08-04T00:35:00.000-0700"
+    "startDateTime": "2020-08-03T23:40:00.000-0700",
+    "endDateTime": "2020-08-04T00:35:00.000-0700"
   },
   {
     "artist": "Ry X",
@@ -126,8 +126,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T01:05:00.000-0700",
-    "endDateTime": "2017-08-04T02:00:00.000-0700"
+    "startDateTime": "2020-08-04T01:05:00.000-0700",
+    "endDateTime": "2020-08-04T02:00:00.000-0700"
   },
   {
     "artist": "Ghost-Note",
@@ -139,8 +139,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T01:20:00.000-0700",
-    "endDateTime": "2017-08-04T02:20:00.000-0700"
+    "startDateTime": "2020-08-04T01:20:00.000-0700",
+    "endDateTime": "2020-08-04T02:20:00.000-0700"
   },
   {
     "artist": "Coco Columbia",
@@ -152,8 +152,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T11:20:00.000-0700",
-    "endDateTime": "2017-08-04T12:20:00.000-0700"
+    "startDateTime": "2020-08-04T11:20:00.000-0700",
+    "endDateTime": "2020-08-04T12:20:00.000-0700"
   },
   {
     "artist": "Courtney Granger",
@@ -165,8 +165,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T11:20:00.000-0700",
-    "endDateTime": "2017-08-04T12:20:00.000-0700"
+    "startDateTime": "2020-08-04T11:20:00.000-0700",
+    "endDateTime": "2020-08-04T12:20:00.000-0700"
   },
   {
     "artist": "Dori Freeman",
@@ -178,8 +178,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T12:00:00.000-0700",
-    "endDateTime": "2017-08-04T13:00:00.000-0700"
+    "startDateTime": "2020-08-04T12:00:00.000-0700",
+    "endDateTime": "2020-08-04T13:00:00.000-0700"
   },
   {
     "artist": "Robyn Hitchcock",
@@ -191,8 +191,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T12:30:00.000-0700",
-    "endDateTime": "2017-08-04T13:30:00.000-0700"
+    "startDateTime": "2020-08-04T12:30:00.000-0700",
+    "endDateTime": "2020-08-04T13:30:00.000-0700"
   },
   {
     "artist": "Dezarie",
@@ -204,8 +204,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T13:00:00.000-0700",
-    "endDateTime": "2017-08-04T14:00:00.000-0700"
+    "startDateTime": "2020-08-04T13:00:00.000-0700",
+    "endDateTime": "2020-08-04T14:00:00.000-0700"
   },
   {
     "artist": "Anna & Elizabeth",
@@ -217,8 +217,8 @@
     "gig": "1/3",
     "currentGig": 1,
     "totalGig": 3,
-    "startDateTime": "2017-08-04T13:00:00.000-0700",
-    "endDateTime": "2017-08-04T14:00:00.000-0700"
+    "startDateTime": "2020-08-04T13:00:00.000-0700",
+    "endDateTime": "2020-08-04T14:00:00.000-0700"
   },
   {
     "artist": "Susto",
@@ -230,8 +230,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T13:40:00.000-0700",
-    "endDateTime": "2017-08-04T14:40:00.000-0700"
+    "startDateTime": "2020-08-04T13:40:00.000-0700",
+    "endDateTime": "2020-08-04T14:40:00.000-0700"
   },
   {
     "artist": "Ghost-Note",
@@ -243,8 +243,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T14:10:00.000-0700",
-    "endDateTime": "2017-08-04T15:10:00.000-0700"
+    "startDateTime": "2020-08-04T14:10:00.000-0700",
+    "endDateTime": "2020-08-04T15:10:00.000-0700"
   },
   {
     "artist": "Jonathan Richman",
@@ -256,8 +256,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T14:40:00.000-0700",
-    "endDateTime": "2017-08-04T15:40:00.000-0700"
+    "startDateTime": "2020-08-04T14:40:00.000-0700",
+    "endDateTime": "2020-08-04T15:40:00.000-0700"
   },
   {
     "artist": "Cat Hoch",
@@ -269,8 +269,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T14:40:00.000-0700",
-    "endDateTime": "2017-08-04T15:40:00.000-0700"
+    "startDateTime": "2020-08-04T14:40:00.000-0700",
+    "endDateTime": "2020-08-04T15:40:00.000-0700"
   },
   {
     "artist": "KING",
@@ -282,8 +282,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T15:10:00.000-0700",
-    "endDateTime": "2017-08-04T16:10:00.000-0700"
+    "startDateTime": "2020-08-04T15:10:00.000-0700",
+    "endDateTime": "2020-08-04T16:10:00.000-0700"
   },
   {
     "artist": "TYuS",
@@ -295,8 +295,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T15:20:00.000-0700",
-    "endDateTime": "2017-08-04T16:20:00.000-0700"
+    "startDateTime": "2020-08-04T15:20:00.000-0700",
+    "endDateTime": "2020-08-04T16:20:00.000-0700"
   },
   {
     "artist": "Billy Strings",
@@ -308,8 +308,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T15:50:00.000-0700",
-    "endDateTime": "2017-08-04T16:50:00.000-0700"
+    "startDateTime": "2020-08-04T15:50:00.000-0700",
+    "endDateTime": "2020-08-04T16:50:00.000-0700"
   },
   {
     "artist": "Lucy Dacus",
@@ -321,8 +321,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T16:20:00.000-0700",
-    "endDateTime": "2017-08-04T17:20:00.000-0700"
+    "startDateTime": "2020-08-04T16:20:00.000-0700",
+    "endDateTime": "2020-08-04T17:20:00.000-0700"
   },
   {
     "artist": "1939 Ensemble",
@@ -334,8 +334,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T16:20:00.000-0700",
-    "endDateTime": "2017-08-04T17:20:00.000-0700"
+    "startDateTime": "2020-08-04T16:20:00.000-0700",
+    "endDateTime": "2020-08-04T17:20:00.000-0700"
   },
   {
     "artist": "Jay Som",
@@ -347,8 +347,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T16:50:00.000-0700",
-    "endDateTime": "2017-08-04T17:50:00.000-0700"
+    "startDateTime": "2020-08-04T16:50:00.000-0700",
+    "endDateTime": "2020-08-04T17:50:00.000-0700"
   },
   {
     "artist": "Quiet Life",
@@ -360,8 +360,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T17:00:00.000-0700",
-    "endDateTime": "2017-08-04T18:00:00.000-0700"
+    "startDateTime": "2020-08-04T17:00:00.000-0700",
+    "endDateTime": "2020-08-04T18:00:00.000-0700"
   },
   {
     "artist": "Big Thief",
@@ -373,8 +373,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T17:30:00.000-0700",
-    "endDateTime": "2017-08-04T18:30:00.000-0700"
+    "startDateTime": "2020-08-04T17:30:00.000-0700",
+    "endDateTime": "2020-08-04T18:30:00.000-0700"
   },
   {
     "artist": "Mic Capes",
@@ -386,8 +386,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T18:00:00.000-0700",
-    "endDateTime": "2017-08-04T19:00:00.000-0700"
+    "startDateTime": "2020-08-04T18:00:00.000-0700",
+    "endDateTime": "2020-08-04T19:00:00.000-0700"
   },
   {
     "artist": "Luke Bell",
@@ -399,8 +399,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T18:00:00.000-0700",
-    "endDateTime": "2017-08-04T19:00:00.000-0700"
+    "startDateTime": "2020-08-04T18:00:00.000-0700",
+    "endDateTime": "2020-08-04T19:00:00.000-0700"
   },
   {
     "artist": "Anna & Elizabeth",
@@ -412,8 +412,8 @@
     "gig": "2/3",
     "currentGig": 2,
     "totalGig": 3,
-    "startDateTime": "2017-08-04T18:30:00.000-0700",
-    "endDateTime": "2017-08-04T19:30:00.000-0700"
+    "startDateTime": "2020-08-04T18:30:00.000-0700",
+    "endDateTime": "2020-08-04T19:30:00.000-0700"
   },
   {
     "artist": "Y La Bamba",
@@ -425,8 +425,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T18:40:00.000-0700",
-    "endDateTime": "2017-08-04T19:40:00.000-0700"
+    "startDateTime": "2020-08-04T18:40:00.000-0700",
+    "endDateTime": "2020-08-04T19:40:00.000-0700"
   },
   {
     "artist": "M.A.K.U SoundSystem",
@@ -438,8 +438,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T19:10:00.000-0700",
-    "endDateTime": "2017-08-04T20:10:00.000-0700"
+    "startDateTime": "2020-08-04T19:10:00.000-0700",
+    "endDateTime": "2020-08-04T20:10:00.000-0700"
   },
   {
     "artist": "Ry X",
@@ -451,8 +451,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T19:40:00.000-0700",
-    "endDateTime": "2017-08-04T20:40:00.000-0700"
+    "startDateTime": "2020-08-04T19:40:00.000-0700",
+    "endDateTime": "2020-08-04T20:40:00.000-0700"
   },
   {
     "artist": "Courtney Marie Andrews",
@@ -464,8 +464,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T19:40:00.000-0700",
-    "endDateTime": "2017-08-04T20:40:00.000-0700"
+    "startDateTime": "2020-08-04T19:40:00.000-0700",
+    "endDateTime": "2020-08-04T20:40:00.000-0700"
   },
   {
     "artist": "Xenia Rubinos",
@@ -477,8 +477,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T20:10:00.000-0700",
-    "endDateTime": "2017-08-04T21:10:00.000-0700"
+    "startDateTime": "2020-08-04T20:10:00.000-0700",
+    "endDateTime": "2020-08-04T21:10:00.000-0700"
   },
   {
     "artist": "Sweet Spirit",
@@ -490,8 +490,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T20:20:00.000-0700",
-    "endDateTime": "2017-08-04T21:20:00.000-0700"
+    "startDateTime": "2020-08-04T20:20:00.000-0700",
+    "endDateTime": "2020-08-04T21:20:00.000-0700"
   },
   {
     "artist": "Deer Tick",
@@ -503,8 +503,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T20:50:00.000-0700",
-    "endDateTime": "2017-08-04T21:50:00.000-0700"
+    "startDateTime": "2020-08-04T20:50:00.000-0700",
+    "endDateTime": "2020-08-04T21:50:00.000-0700"
   },
   {
     "artist": "Meatbodies",
@@ -516,8 +516,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T21:20:00.000-0700",
-    "endDateTime": "2017-08-04T22:20:00.000-0700"
+    "startDateTime": "2020-08-04T21:20:00.000-0700",
+    "endDateTime": "2020-08-04T22:20:00.000-0700"
   },
   {
     "artist": "Dezarie",
@@ -529,8 +529,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T22:00:00.000-0700",
-    "endDateTime": "2017-08-04T23:00:00.000-0700"
+    "startDateTime": "2020-08-04T22:00:00.000-0700",
+    "endDateTime": "2020-08-04T23:00:00.000-0700"
   },
   {
     "artist": "Wolf People",
@@ -542,8 +542,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T22:00:00.000-0700",
-    "endDateTime": "2017-08-04T23:10:00.000-0700"
+    "startDateTime": "2020-08-04T22:00:00.000-0700",
+    "endDateTime": "2020-08-04T23:10:00.000-0700"
   },
   {
     "artist": "Marlon Williams",
@@ -555,8 +555,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T22:15:00.000-0700",
-    "endDateTime": "2017-08-04T23:10:00.000-0700"
+    "startDateTime": "2020-08-04T22:15:00.000-0700",
+    "endDateTime": "2020-08-04T23:10:00.000-0700"
   },
   {
     "artist": "Charles Bradley & His Extraordinaires",
@@ -568,8 +568,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T23:00:00.000-0700",
-    "endDateTime": "2017-08-05T00:10:00.000-0700"
+    "startDateTime": "2020-08-04T23:00:00.000-0700",
+    "endDateTime": "2020-08-05T00:10:00.000-0700"
   },
   {
     "artist": "Priests",
@@ -581,8 +581,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-04T23:40:00.000-0700",
-    "endDateTime": "2017-08-05T00:40:00.000-0700"
+    "startDateTime": "2020-08-04T23:40:00.000-0700",
+    "endDateTime": "2020-08-05T00:40:00.000-0700"
   },
   {
     "artist": "The Last Artful, Dodgr",
@@ -594,8 +594,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-04T23:40:00.000-0700",
-    "endDateTime": "2017-08-05T00:35:00.000-0700"
+    "startDateTime": "2020-08-04T23:40:00.000-0700",
+    "endDateTime": "2020-08-05T00:35:00.000-0700"
   },
   {
     "artist": "Alex Cameron",
@@ -607,8 +607,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T01:05:00.000-0700",
-    "endDateTime": "2017-08-05T02:00:00.000-0700"
+    "startDateTime": "2020-08-05T01:05:00.000-0700",
+    "endDateTime": "2020-08-05T02:00:00.000-0700"
   },
   {
     "artist": "McTuff feat. Skerik",
@@ -620,8 +620,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T01:20:00.000-0700",
-    "endDateTime": "2017-08-05T02:20:00.000-0700"
+    "startDateTime": "2020-08-05T01:20:00.000-0700",
+    "endDateTime": "2020-08-05T02:20:00.000-0700"
   },
   {
     "artist": "Spoken",
@@ -633,8 +633,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T09:30:00.000-0700",
-    "endDateTime": "2017-08-05T10:40:00.000-0700"
+    "startDateTime": "2020-08-05T09:30:00.000-0700",
+    "endDateTime": "2020-08-05T10:40:00.000-0700"
   },
   {
     "artist": "Quiet Life",
@@ -646,8 +646,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T11:20:00.000-0700",
-    "endDateTime": "2017-08-05T12:20:00.000-0700"
+    "startDateTime": "2020-08-05T11:20:00.000-0700",
+    "endDateTime": "2020-08-05T12:20:00.000-0700"
   },
   {
     "artist": "Courtney Marie Andrews",
@@ -659,8 +659,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T11:20:00.000-0700",
-    "endDateTime": "2017-08-05T12:20:00.000-0700"
+    "startDateTime": "2020-08-05T11:20:00.000-0700",
+    "endDateTime": "2020-08-05T12:20:00.000-0700"
   },
   {
     "artist": "Jay Som",
@@ -672,8 +672,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T12:00:00.000-0700",
-    "endDateTime": "2017-08-05T13:00:00.000-0700"
+    "startDateTime": "2020-08-05T12:00:00.000-0700",
+    "endDateTime": "2020-08-05T13:00:00.000-0700"
   },
   {
     "artist": "Anna & Elizabeth",
@@ -685,8 +685,8 @@
     "gig": "3/3",
     "currentGig": 3,
     "totalGig": 3,
-    "startDateTime": "2017-08-05T12:30:00.000-0700",
-    "endDateTime": "2017-08-05T13:30:00.000-0700"
+    "startDateTime": "2020-08-05T12:30:00.000-0700",
+    "endDateTime": "2020-08-05T13:30:00.000-0700"
   },
   {
     "artist": "Jonathan Richman",
@@ -698,8 +698,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T13:00:00.000-0700",
-    "endDateTime": "2017-08-05T14:00:00.000-0700"
+    "startDateTime": "2020-08-05T13:00:00.000-0700",
+    "endDateTime": "2020-08-05T14:00:00.000-0700"
   },
   {
     "artist": "Khun Narin",
@@ -711,8 +711,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T13:00:00.000-0700",
-    "endDateTime": "2017-08-05T14:00:00.000-0700"
+    "startDateTime": "2020-08-05T13:00:00.000-0700",
+    "endDateTime": "2020-08-05T14:00:00.000-0700"
   },
   {
     "artist": "Moorea Masa & The Mood",
@@ -724,8 +724,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T13:40:00.000-0700",
-    "endDateTime": "2017-08-05T14:40:00.000-0700"
+    "startDateTime": "2020-08-05T13:40:00.000-0700",
+    "endDateTime": "2020-08-05T14:40:00.000-0700"
   },
   {
     "artist": "Priests",
@@ -737,8 +737,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T14:10:00.000-0700",
-    "endDateTime": "2017-08-05T15:10:00.000-0700"
+    "startDateTime": "2020-08-05T14:10:00.000-0700",
+    "endDateTime": "2020-08-05T15:10:00.000-0700"
   },
   {
     "artist": "Julia Jacklin",
@@ -750,8 +750,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T14:40:00.000-0700",
-    "endDateTime": "2017-08-05T15:40:00.000-0700"
+    "startDateTime": "2020-08-05T14:40:00.000-0700",
+    "endDateTime": "2020-08-05T15:40:00.000-0700"
   },
   {
     "artist": "Dori Freeman",
@@ -763,8 +763,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T14:40:00.000-0700",
-    "endDateTime": "2017-08-05T15:40:00.000-0700"
+    "startDateTime": "2020-08-05T14:40:00.000-0700",
+    "endDateTime": "2020-08-05T15:40:00.000-0700"
   },
   {
     "artist": "Tim Darcy",
@@ -776,8 +776,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T15:10:00.000-0700",
-    "endDateTime": "2017-08-05T16:10:00.000-0700"
+    "startDateTime": "2020-08-05T15:10:00.000-0700",
+    "endDateTime": "2020-08-05T16:10:00.000-0700"
   },
   {
     "artist": "Marlon Williams",
@@ -789,8 +789,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T15:20:00.000-0700",
-    "endDateTime": "2017-08-05T16:20:00.000-0700"
+    "startDateTime": "2020-08-05T15:20:00.000-0700",
+    "endDateTime": "2020-08-05T16:20:00.000-0700"
   },
   {
     "artist": "Kelsey Waldon",
@@ -802,8 +802,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T15:50:00.000-0700",
-    "endDateTime": "2017-08-05T16:50:00.000-0700"
+    "startDateTime": "2020-08-05T15:50:00.000-0700",
+    "endDateTime": "2020-08-05T16:50:00.000-0700"
   },
   {
     "artist": "Tank and The Bangas",
@@ -815,8 +815,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T16:20:00.000-0700",
-    "endDateTime": "2017-08-05T17:20:00.000-0700"
+    "startDateTime": "2020-08-05T16:20:00.000-0700",
+    "endDateTime": "2020-08-05T17:20:00.000-0700"
   },
   {
     "artist": "Aldous Harding",
@@ -828,8 +828,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T16:20:00.000-0700",
-    "endDateTime": "2017-08-05T17:20:00.000-0700"
+    "startDateTime": "2020-08-05T16:20:00.000-0700",
+    "endDateTime": "2020-08-05T17:20:00.000-0700"
   },
   {
     "artist": "Big Thief",
@@ -841,8 +841,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T16:50:00.000-0700",
-    "endDateTime": "2017-08-05T17:50:00.000-0700"
+    "startDateTime": "2020-08-05T16:50:00.000-0700",
+    "endDateTime": "2020-08-05T17:50:00.000-0700"
   },
   {
     "artist": "Lucy Dacus",
@@ -854,8 +854,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T17:00:00.000-0700",
-    "endDateTime": "2017-08-05T18:00:00.000-0700"
+    "startDateTime": "2020-08-05T17:00:00.000-0700",
+    "endDateTime": "2020-08-05T18:00:00.000-0700"
   },
   {
     "artist": "Xenia Rubinos",
@@ -867,8 +867,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T17:30:00.000-0700",
-    "endDateTime": "2017-08-05T18:30:00.000-0700"
+    "startDateTime": "2020-08-05T17:30:00.000-0700",
+    "endDateTime": "2020-08-05T18:30:00.000-0700"
   },
   {
     "artist": "Kaia Kater",
@@ -880,8 +880,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T18:00:00.000-0700",
-    "endDateTime": "2017-08-05T19:00:00.000-0700"
+    "startDateTime": "2020-08-05T18:00:00.000-0700",
+    "endDateTime": "2020-08-05T19:00:00.000-0700"
   },
   {
     "artist": "Deer Tick",
@@ -893,8 +893,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T18:00:00.000-0700",
-    "endDateTime": "2017-08-05T19:00:00.000-0700"
+    "startDateTime": "2020-08-05T18:00:00.000-0700",
+    "endDateTime": "2020-08-05T19:00:00.000-0700"
   },
   {
     "artist": "Meatbodies",
@@ -906,8 +906,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T18:30:00.000-0700",
-    "endDateTime": "2017-08-05T19:30:00.000-0700"
+    "startDateTime": "2020-08-05T18:30:00.000-0700",
+    "endDateTime": "2020-08-05T19:30:00.000-0700"
   },
   {
     "artist": "KING",
@@ -919,8 +919,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T18:40:00.000-0700",
-    "endDateTime": "2017-08-05T19:40:00.000-0700"
+    "startDateTime": "2020-08-05T18:40:00.000-0700",
+    "endDateTime": "2020-08-05T19:40:00.000-0700"
   },
   {
     "artist": "Hiss Golden Messenger",
@@ -932,8 +932,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T19:10:00.000-0700",
-    "endDateTime": "2017-08-05T20:10:00.000-0700"
+    "startDateTime": "2020-08-05T19:10:00.000-0700",
+    "endDateTime": "2020-08-05T20:10:00.000-0700"
   },
   {
     "artist": "Sunflower Bean",
@@ -945,8 +945,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T19:40:00.000-0700",
-    "endDateTime": "2017-08-05T20:40:00.000-0700"
+    "startDateTime": "2020-08-05T19:40:00.000-0700",
+    "endDateTime": "2020-08-05T20:40:00.000-0700"
   },
   {
     "artist": "Andy Shauf",
@@ -958,8 +958,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T19:40:00.000-0700",
-    "endDateTime": "2017-08-05T20:40:00.000-0700"
+    "startDateTime": "2020-08-05T19:40:00.000-0700",
+    "endDateTime": "2020-08-05T20:40:00.000-0700"
   },
   {
     "artist": "Black Milk & Nat Turner",
@@ -971,8 +971,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T20:10:00.000-0700",
-    "endDateTime": "2017-08-05T21:10:00.000-0700"
+    "startDateTime": "2020-08-05T20:10:00.000-0700",
+    "endDateTime": "2020-08-05T21:10:00.000-0700"
   },
   {
     "artist": "Steve Gunn",
@@ -984,8 +984,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T20:20:00.000-0700",
-    "endDateTime": "2017-08-05T21:20:00.000-0700"
+    "startDateTime": "2020-08-05T20:20:00.000-0700",
+    "endDateTime": "2020-08-05T21:20:00.000-0700"
   },
   {
     "artist": "Drive-By Truckers",
@@ -997,8 +997,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T20:50:00.000-0700",
-    "endDateTime": "2017-08-05T21:50:00.000-0700"
+    "startDateTime": "2020-08-05T20:50:00.000-0700",
+    "endDateTime": "2020-08-05T21:50:00.000-0700"
   },
   {
     "artist": "Pinegrove",
@@ -1010,8 +1010,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T21:20:00.000-0700",
-    "endDateTime": "2017-08-05T22:20:00.000-0700"
+    "startDateTime": "2020-08-05T21:20:00.000-0700",
+    "endDateTime": "2020-08-05T22:20:00.000-0700"
   },
   {
     "artist": "Mandolin Orange",
@@ -1023,8 +1023,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T22:00:00.000-0700",
-    "endDateTime": "2017-08-05T23:10:00.000-0700"
+    "startDateTime": "2020-08-05T22:00:00.000-0700",
+    "endDateTime": "2020-08-05T23:10:00.000-0700"
   },
   {
     "artist": "Ex-Cult",
@@ -1036,8 +1036,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T22:00:00.000-0700",
-    "endDateTime": "2017-08-05T23:00:00.000-0700"
+    "startDateTime": "2020-08-05T22:00:00.000-0700",
+    "endDateTime": "2020-08-05T23:00:00.000-0700"
   },
   {
     "artist": "Dungen",
@@ -1049,8 +1049,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T22:15:00.000-0700",
-    "endDateTime": "2017-08-05T23:25:00.000-0700"
+    "startDateTime": "2020-08-05T22:15:00.000-0700",
+    "endDateTime": "2020-08-05T23:25:00.000-0700"
   },
   {
     "artist": "Dinosaur Jr.",
@@ -1062,8 +1062,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T23:00:00.000-0700",
-    "endDateTime": "2017-08-06T00:10:00.000-0700"
+    "startDateTime": "2020-08-05T23:00:00.000-0700",
+    "endDateTime": "2020-08-06T00:10:00.000-0700"
   },
   {
     "artist": "Laugh",
@@ -1075,8 +1075,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T23:00:00.000-0700",
-    "endDateTime": "2017-08-06T00:30:00.000-0700"
+    "startDateTime": "2020-08-05T23:00:00.000-0700",
+    "endDateTime": "2020-08-06T00:30:00.000-0700"
   },
   {
     "artist": "Billy Strings",
@@ -1088,8 +1088,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-05T23:40:00.000-0700",
-    "endDateTime": "2017-08-06T00:40:00.000-0700"
+    "startDateTime": "2020-08-05T23:40:00.000-0700",
+    "endDateTime": "2020-08-06T00:40:00.000-0700"
   },
   {
     "artist": "Ty Segall",
@@ -1101,8 +1101,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-05T23:55:00.000-0700",
-    "endDateTime": "2017-08-06T00:45:00.000-0700"
+    "startDateTime": "2020-08-05T23:55:00.000-0700",
+    "endDateTime": "2020-08-06T00:45:00.000-0700"
   },
   {
     "artist": "Huun Huur Tu",
@@ -1114,8 +1114,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T01:10:00.000-0700",
-    "endDateTime": "2017-08-06T02:00:00.000-0700"
+    "startDateTime": "2020-08-06T01:10:00.000-0700",
+    "endDateTime": "2020-08-06T02:00:00.000-0700"
   },
   {
     "artist": "M.A.K.U SoundSystem",
@@ -1127,8 +1127,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T01:20:00.000-0700",
-    "endDateTime": "2017-08-06T02:20:00.000-0700"
+    "startDateTime": "2020-08-06T01:20:00.000-0700",
+    "endDateTime": "2020-08-06T02:20:00.000-0700"
   },
   {
     "artist": "Imagine Storytelling",
@@ -1140,8 +1140,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T09:30:00.000-0700",
-    "endDateTime": "2017-08-06T11:00:00.000-0700"
+    "startDateTime": "2020-08-06T09:30:00.000-0700",
+    "endDateTime": "2020-08-06T11:00:00.000-0700"
   },
   {
     "artist": "Moorea Masa & The Mood",
@@ -1153,8 +1153,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T11:20:00.000-0700",
-    "endDateTime": "2017-08-06T12:20:00.000-0700"
+    "startDateTime": "2020-08-06T11:20:00.000-0700",
+    "endDateTime": "2020-08-06T12:20:00.000-0700"
   },
   {
     "artist": "Kaia Kater",
@@ -1166,8 +1166,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T11:20:00.000-0700",
-    "endDateTime": "2017-08-06T12:20:00.000-0700"
+    "startDateTime": "2020-08-06T11:20:00.000-0700",
+    "endDateTime": "2020-08-06T12:20:00.000-0700"
   },
   {
     "artist": "Aldous Harding",
@@ -1179,8 +1179,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T12:00:00.000-0700",
-    "endDateTime": "2017-08-06T13:00:00.000-0700"
+    "startDateTime": "2020-08-06T12:00:00.000-0700",
+    "endDateTime": "2020-08-06T13:00:00.000-0700"
   },
   {
     "artist": "McTuff feat. Skerik",
@@ -1192,8 +1192,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T12:30:00.000-0700",
-    "endDateTime": "2017-08-06T13:30:00.000-0700"
+    "startDateTime": "2020-08-06T12:30:00.000-0700",
+    "endDateTime": "2020-08-06T13:30:00.000-0700"
   },
   {
     "artist": "Y La Bamba",
@@ -1205,8 +1205,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T13:00:00.000-0700",
-    "endDateTime": "2017-08-06T14:00:00.000-0700"
+    "startDateTime": "2020-08-06T13:00:00.000-0700",
+    "endDateTime": "2020-08-06T14:00:00.000-0700"
   },
   {
     "artist": "Brent Cobb",
@@ -1218,8 +1218,8 @@
     "gig": "1/2",
     "currentGig": 1,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T13:00:00.000-0700",
-    "endDateTime": "2017-08-06T14:00:00.000-0700"
+    "startDateTime": "2020-08-06T13:00:00.000-0700",
+    "endDateTime": "2020-08-06T14:00:00.000-0700"
   },
   {
     "artist": "Cat Hoch",
@@ -1231,8 +1231,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T13:40:00.000-0700",
-    "endDateTime": "2017-08-06T14:40:00.000-0700"
+    "startDateTime": "2020-08-06T13:40:00.000-0700",
+    "endDateTime": "2020-08-06T14:40:00.000-0700"
   },
   {
     "artist": "Steve Gunn",
@@ -1244,8 +1244,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T14:10:00.000-0700",
-    "endDateTime": "2017-08-06T15:10:00.000-0700"
+    "startDateTime": "2020-08-06T14:10:00.000-0700",
+    "endDateTime": "2020-08-06T15:10:00.000-0700"
   },
   {
     "artist": "Ex-Cult",
@@ -1257,8 +1257,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T14:40:00.000-0700",
-    "endDateTime": "2017-08-06T15:40:00.000-0700"
+    "startDateTime": "2020-08-06T14:40:00.000-0700",
+    "endDateTime": "2020-08-06T15:40:00.000-0700"
   },
   {
     "artist": "Courtney Granger",
@@ -1270,8 +1270,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T14:40:00.000-0700",
-    "endDateTime": "2017-08-06T15:40:00.000-0700"
+    "startDateTime": "2020-08-06T14:40:00.000-0700",
+    "endDateTime": "2020-08-06T15:40:00.000-0700"
   },
   {
     "artist": "1939 Ensemble",
@@ -1283,8 +1283,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T14:50:00.000-0700",
-    "endDateTime": "2017-08-06T15:50:00.000-0700"
+    "startDateTime": "2020-08-06T14:50:00.000-0700",
+    "endDateTime": "2020-08-06T15:50:00.000-0700"
   },
   {
     "artist": "The Last Artful, Dodgr",
@@ -1296,8 +1296,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T15:20:00.000-0700",
-    "endDateTime": "2017-08-06T16:20:00.000-0700"
+    "startDateTime": "2020-08-06T15:20:00.000-0700",
+    "endDateTime": "2020-08-06T16:20:00.000-0700"
   },
   {
     "artist": "Black Milk & Nat Turner",
@@ -1309,8 +1309,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T15:50:00.000-0700",
-    "endDateTime": "2017-08-06T16:50:00.000-0700"
+    "startDateTime": "2020-08-06T15:50:00.000-0700",
+    "endDateTime": "2020-08-06T16:50:00.000-0700"
   },
   {
     "artist": "Tim Darcy",
@@ -1322,8 +1322,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T16:20:00.000-0700",
-    "endDateTime": "2017-08-06T17:20:00.000-0700"
+    "startDateTime": "2020-08-06T16:20:00.000-0700",
+    "endDateTime": "2020-08-06T17:20:00.000-0700"
   },
   {
     "artist": "Andy Shauf",
@@ -1335,8 +1335,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T16:20:00.000-0700",
-    "endDateTime": "2017-08-06T17:20:00.000-0700"
+    "startDateTime": "2020-08-06T16:20:00.000-0700",
+    "endDateTime": "2020-08-06T17:20:00.000-0700"
   },
   {
     "artist": "TYuS",
@@ -1348,8 +1348,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T16:30:00.000-0700",
-    "endDateTime": "2017-08-06T17:30:00.000-0700"
+    "startDateTime": "2020-08-06T16:30:00.000-0700",
+    "endDateTime": "2020-08-06T17:30:00.000-0700"
   },
   {
     "artist": "J Mascis",
@@ -1361,8 +1361,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T17:00:00.000-0700",
-    "endDateTime": "2017-08-06T18:00:00.000-0700"
+    "startDateTime": "2020-08-06T17:00:00.000-0700",
+    "endDateTime": "2020-08-06T18:00:00.000-0700"
   },
   {
     "artist": "Mandolin Orange",
@@ -1374,8 +1374,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T17:30:00.000-0700",
-    "endDateTime": "2017-08-06T18:30:00.000-0700"
+    "startDateTime": "2020-08-06T17:30:00.000-0700",
+    "endDateTime": "2020-08-06T18:30:00.000-0700"
   },
   {
     "artist": "Robyn Hitchcock",
@@ -1387,8 +1387,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T18:00:00.000-0700",
-    "endDateTime": "2017-08-06T19:00:00.000-0700"
+    "startDateTime": "2020-08-06T18:00:00.000-0700",
+    "endDateTime": "2020-08-06T19:00:00.000-0700"
   },
   {
     "artist": "A-WA",
@@ -1400,8 +1400,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T18:00:00.000-0700",
-    "endDateTime": "2017-08-06T19:00:00.000-0700"
+    "startDateTime": "2020-08-06T18:00:00.000-0700",
+    "endDateTime": "2020-08-06T19:00:00.000-0700"
   },
   {
     "artist": "Kelsey Waldon",
@@ -1413,8 +1413,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T18:10:00.000-0700",
-    "endDateTime": "2017-08-06T19:10:00.000-0700"
+    "startDateTime": "2020-08-06T18:10:00.000-0700",
+    "endDateTime": "2020-08-06T19:10:00.000-0700"
   },
   {
     "artist": "Julia Jacklin",
@@ -1426,8 +1426,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T18:40:00.000-0700",
-    "endDateTime": "2017-08-06T19:40:00.000-0700"
+    "startDateTime": "2020-08-06T18:40:00.000-0700",
+    "endDateTime": "2020-08-06T19:40:00.000-0700"
   },
   {
     "artist": "Pinegrove",
@@ -1439,8 +1439,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T19:10:00.000-0700",
-    "endDateTime": "2017-08-06T20:10:00.000-0700"
+    "startDateTime": "2020-08-06T19:10:00.000-0700",
+    "endDateTime": "2020-08-06T20:10:00.000-0700"
   },
   {
     "artist": "Huun Huur Tu",
@@ -1452,8 +1452,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T19:40:00.000-0700",
-    "endDateTime": "2017-08-06T20:40:00.000-0700"
+    "startDateTime": "2020-08-06T19:40:00.000-0700",
+    "endDateTime": "2020-08-06T20:40:00.000-0700"
   },
   {
     "artist": "Drive-By Truckers",
@@ -1465,8 +1465,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T19:40:00.000-0700",
-    "endDateTime": "2017-08-06T20:40:00.000-0700"
+    "startDateTime": "2020-08-06T19:40:00.000-0700",
+    "endDateTime": "2020-08-06T20:40:00.000-0700"
   },
   {
     "artist": "Tank and The Bangas",
@@ -1478,8 +1478,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T19:50:00.000-0700",
-    "endDateTime": "2017-08-06T20:50:00.000-0700"
+    "startDateTime": "2020-08-06T19:50:00.000-0700",
+    "endDateTime": "2020-08-06T20:50:00.000-0700"
   },
   {
     "artist": "Sunflower Bean",
@@ -1491,8 +1491,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T20:20:00.000-0700",
-    "endDateTime": "2017-08-06T21:20:00.000-0700"
+    "startDateTime": "2020-08-06T20:20:00.000-0700",
+    "endDateTime": "2020-08-06T21:20:00.000-0700"
   },
   {
     "artist": "Dinosaur Jr.",
@@ -1504,8 +1504,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T20:50:00.000-0700",
-    "endDateTime": "2017-08-06T21:50:00.000-0700"
+    "startDateTime": "2020-08-06T20:50:00.000-0700",
+    "endDateTime": "2020-08-06T21:50:00.000-0700"
   },
   {
     "artist": "Dungen",
@@ -1517,8 +1517,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T21:20:00.000-0700",
-    "endDateTime": "2017-08-06T22:20:00.000-0700"
+    "startDateTime": "2020-08-06T21:20:00.000-0700",
+    "endDateTime": "2020-08-06T22:20:00.000-0700"
   },
   {
     "artist": "Ty Segall",
@@ -1530,8 +1530,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T22:00:00.000-0700",
-    "endDateTime": "2017-08-06T23:10:00.000-0700"
+    "startDateTime": "2020-08-06T22:00:00.000-0700",
+    "endDateTime": "2020-08-06T23:10:00.000-0700"
   },
   {
     "artist": "Alex Cameron",
@@ -1543,8 +1543,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T22:00:00.000-0700",
-    "endDateTime": "2017-08-06T23:00:00.000-0700"
+    "startDateTime": "2020-08-06T22:00:00.000-0700",
+    "endDateTime": "2020-08-06T23:00:00.000-0700"
   },
   {
     "artist": "Brent Cobb",
@@ -1556,8 +1556,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T22:15:00.000-0700",
-    "endDateTime": "2017-08-06T23:10:00.000-0700"
+    "startDateTime": "2020-08-06T22:15:00.000-0700",
+    "endDateTime": "2020-08-06T23:10:00.000-0700"
   },
   {
     "artist": "Wolf People",
@@ -1569,8 +1569,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-06T23:40:00.000-0700",
-    "endDateTime": "2017-08-07T00:35:00.000-0700"
+    "startDateTime": "2020-08-06T23:40:00.000-0700",
+    "endDateTime": "2020-08-07T00:35:00.000-0700"
   },
   {
     "artist": "A-WA",
@@ -1582,8 +1582,8 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-06T23:40:00.000-0700",
-    "endDateTime": "2017-08-07T00:40:00.000-0700"
+    "startDateTime": "2020-08-06T23:40:00.000-0700",
+    "endDateTime": "2020-08-07T00:40:00.000-0700"
   },
   {
     "artist": "Khun Narin",
@@ -1595,8 +1595,8 @@
     "gig": "2/2",
     "currentGig": 2,
     "totalGig": 2,
-    "startDateTime": "2017-08-07T01:05:00.000-0700",
-    "endDateTime": "2017-08-07T02:00:00.000-0700"
+    "startDateTime": "2020-08-07T01:05:00.000-0700",
+    "endDateTime": "2020-08-07T02:00:00.000-0700"
   },
   {
     "artist": "Hiss Golden Messenger",
@@ -1608,7 +1608,7 @@
     "gig": "1/1",
     "currentGig": 1,
     "totalGig": 1,
-    "startDateTime": "2017-08-07T01:20:00.000-0700",
-    "endDateTime": "2017-08-07T02:20:00.000-0700"
+    "startDateTime": "2020-08-07T01:20:00.000-0700",
+    "endDateTime": "2020-08-07T02:20:00.000-0700"
   }
 ]

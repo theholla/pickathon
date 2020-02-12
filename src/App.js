@@ -4,14 +4,7 @@ import schedule from './lib/master-schedule.json';
 import { Event } from './components/Event';
 import { PageHeader } from './components/PageHeader';
 import moment from 'moment';
-import {
-  GALAXY_BARN,
-  LUCKY_BARN,
-  MT_HOOD_STAGE,
-  STARLIGHT_STAGE,
-  TREELINE_STAGE,
-  WOOD_STAGE
-} from './lib/constants';
+import { GALAXY_BARN, LUCKY_BARN, MT_HOOD_STAGE, STARLIGHT_STAGE, TREELINE_STAGE, WOOD_STAGE } from './lib/constants';
 
 function mapLocationToStageId(location) {
   switch (location) {
@@ -53,7 +46,7 @@ class App extends Component {
       MT_HOOD_STAGE: false,
       STARLIGHT_STAGE: false,
       TREELINE_STAGE: false,
-      WOOD_STAGE: false
+      WOOD_STAGE: false,
     };
 
     const searchParams = '';
@@ -61,7 +54,7 @@ class App extends Component {
     this.state = {
       eventDictionary,
       stageFilter,
-      searchParams
+      searchParams,
     };
   }
 
@@ -101,8 +94,8 @@ class App extends Component {
     return Object.values(eventDictionary);
   }
 
-  renderEmptyState(eventArray) {
-    if (!eventArray.length) {
+  renderEmptyState(eventArray, searchResultsArray) {
+    if (!eventArray.length && !searchResultsArray.length) {
       return <p>Click a stage name to filter events by stage</p>;
     }
   }
@@ -128,34 +121,22 @@ class App extends Component {
 
     return (
       <div>
-        <PageHeader
-          onStageFilterClick={this.onStageFilterClick.bind(this)}
-          stageFilter={this.state.stageFilter}
-        />
-        <div className={'page-content'}>
-          <div />
-          <div>
-            {eventArray}
-            {this.renderEmptyState(eventArray)}
-          </div>
-          <div />
+        <PageHeader onStageFilterClick={this.onStageFilterClick.bind(this)} stageFilter={this.state.stageFilter} />
+        <div>
+          <form>
+            <label className={'search-container'}>
+              <input
+                className={'search-input'}
+                type="text"
+                placeholder="search by artist"
+                onChange={this.handleSearchChange.bind(this)}
+              />
+            </label>
+          </form>
         </div>
-        <div className={'page-content'}>
-          <div />
-          <div>
-            <form>
-              <label className={'search-container'}>
-                <input
-                  className={'search-input'}
-                  type="text"
-                  placeholder="search by artist"
-                  onChange={this.handleSearchChange.bind(this)}
-                />
-              </label>
-            </form>
-            {searchResultsArray}
-          </div>
-          <div />
+        <div>
+          {searchResultsArray.length ? searchResultsArray : eventArray}
+          {this.renderEmptyState(eventArray, searchResultsArray)}
         </div>
       </div>
     );

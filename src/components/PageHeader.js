@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  GALAXY_BARN,
-  LUCKY_BARN,
-  MT_HOOD_STAGE,
-  STARLIGHT_STAGE,
-  TREELINE_STAGE,
-  WOOD_STAGE
-} from '../lib/constants';
+import { GALAXY_BARN, LUCKY_BARN, MT_HOOD_STAGE, STARLIGHT_STAGE, TREELINE_STAGE, WOOD_STAGE } from '../lib/constants';
 
 export function PageHeader(props) {
   const { onStageFilterClick, stageFilter } = props;
@@ -27,16 +20,10 @@ export function PageHeader(props) {
       </div>
       <div>
         <div className={'stage-button-bar'}>
-          <button
-            className={'galaxy stage-button' + isOn(GALAXY_BARN)}
-            onClick={() => onStageFilterClick(GALAXY_BARN)}
-          >
+          <button className={'galaxy stage-button' + isOn(GALAXY_BARN)} onClick={() => onStageFilterClick(GALAXY_BARN)}>
             Galaxy
           </button>
-          <button
-            className={'lucky stage-button' + isOn(LUCKY_BARN)}
-            onClick={() => onStageFilterClick(LUCKY_BARN)}
-          >
+          <button className={'lucky stage-button' + isOn(LUCKY_BARN)} onClick={() => onStageFilterClick(LUCKY_BARN)}>
             Lucky
           </button>
           <button
@@ -57,10 +44,7 @@ export function PageHeader(props) {
           >
             Tree
           </button>
-          <button
-            className={'wood stage-button' + isOn(WOOD_STAGE)}
-            onClick={() => onStageFilterClick(WOOD_STAGE)}
-          >
+          <button className={'wood stage-button' + isOn(WOOD_STAGE)} onClick={() => onStageFilterClick(WOOD_STAGE)}>
             Wood
           </button>
         </div>
