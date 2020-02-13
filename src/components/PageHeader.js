@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Hero from './Hero';
 import { GALAXY_BARN, LUCKY_BARN, MT_HOOD_STAGE, STARLIGHT_STAGE, TREELINE_STAGE, WOOD_STAGE } from '../lib/constants';
 
@@ -49,3 +50,8 @@ export function PageHeader(props) {
     </div>
   );
 }
+
+PageHeader.propTypes = {
+  onStageFilterClick: PropTypes.func.isRequired,
+  stageFilter: PropTypes.object,
+};

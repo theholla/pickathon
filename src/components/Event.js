@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { GALAXY_BARN, LUCKY_BARN, MT_HOOD_STAGE, STARLIGHT_STAGE, TREELINE_STAGE, WOOD_STAGE } from '../lib/constants';
 
 export function Event(props) {
@@ -40,3 +41,16 @@ export function Event(props) {
     </div>
   );
 }
+
+Event.propTypes = {
+  artist: PropTypes.string.isRequired,
+  uuid: PropTypes.number.isRequired,
+  location: PropTypes.string.isRequired,
+  startTime: PropTypes.string.isRequired,
+  endTime: PropTypes.string.isRequired,
+  day: PropTypes.string.isRequired,
+  gig: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+  isSelected: PropTypes.func.isRequired,
+  stageId: PropTypes.string.isRequired,
+};
