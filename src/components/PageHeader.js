@@ -1,4 +1,5 @@
 import React from 'react';
+import Hero from './Hero';
 import { GALAXY_BARN, LUCKY_BARN, MT_HOOD_STAGE, STARLIGHT_STAGE, TREELINE_STAGE, WOOD_STAGE } from '../lib/constants';
 
 export function PageHeader(props) {
@@ -13,11 +14,7 @@ export function PageHeader(props) {
 
   return (
     <div>
-      <div>
-        <div>
-          <div>Pickathon Quick Sched</div>
-        </div>
-      </div>
+      <Hero />
       <div>
         <div className={'stage-button-bar'}>
           <button className={'galaxy stage-button' + isOn(GALAXY_BARN)} onClick={() => onStageFilterClick(GALAXY_BARN)}>

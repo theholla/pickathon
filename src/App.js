@@ -96,7 +96,7 @@ class App extends Component {
 
   renderEmptyState(eventArray, searchResultsArray) {
     if (!eventArray.length && !searchResultsArray.length) {
-      return <p>Click a stage name to filter events by stage</p>;
+      return <p className={'results-empty'}>Nothing to see here. Did you select a stage name?</p>;
     }
   }
 
@@ -128,13 +128,13 @@ class App extends Component {
               <input
                 className={'search-input'}
                 type="text"
-                placeholder="search by artist"
+                placeholder="filter by artist"
                 onChange={this.handleSearchChange.bind(this)}
               />
             </label>
           </form>
         </div>
-        <div>
+        <div className={'results'}>
           {searchResultsArray.length ? searchResultsArray : eventArray}
           {this.renderEmptyState(eventArray, searchResultsArray)}
         </div>
