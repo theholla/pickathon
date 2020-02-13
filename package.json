@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "tsc",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -17,6 +17,9 @@
   "bugs": "https://github.com/theholla/pickathon/issues",
   "license": "MIT",
   "dependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.1",
+    "@types/uuid": "^3.4.7",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^15.6.1",
@@ -29,6 +32,8 @@
     "node": "10.17.0"
   },
   "devDependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
     "acorn": "^6.4.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^2.10.0",

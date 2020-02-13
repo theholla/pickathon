@@ -1,29 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { GALAXY_BARN, LUCKY_BARN, MT_HOOD_STAGE, STARLIGHT_STAGE, TREELINE_STAGE, WOOD_STAGE } from '../lib/constants';
+import { Stage, StageId, Event } from '../App';
 
-export function Event(props) {
+export function EventCard(props: Event) {
   const { artist, uuid, location, startTime, endTime, day, gig, onClick, isSelected, stageId } = props;
 
-  function getEventClass(isSelected) {
+  function getEventClass(isSelected: boolean) {
     let className = '';
     if (isSelected) className = ' selected-event';
     return className;
   }
 
-  function getStageClass(stageId) {
+  function getStageClass(stageId: StageId) {
     switch (stageId) {
-      case GALAXY_BARN:
+      case Stage.GALAXY_BARN:
         return 'galaxy';
-      case LUCKY_BARN:
+      case Stage.LUCKY_BARN:
         return 'lucky';
-      case MT_HOOD_STAGE:
+      case Stage.MT_HOOD_STAGE:
         return 'mthood';
-      case STARLIGHT_STAGE:
+      case Stage.STARLIGHT_STAGE:
         return 'starlight';
-      case TREELINE_STAGE:
+      case Stage.TREELINE_STAGE:
         return 'treeline';
-      case WOOD_STAGE:
+      case Stage.WOOD_STAGE:
         return 'wood';
       default:
         return '';
@@ -42,7 +42,7 @@ export function Event(props) {
   );
 }
 
-Event.propTypes = {
+EventCard.propTypes = {
   artist: PropTypes.string.isRequired,
   uuid: PropTypes.number.isRequired,
   location: PropTypes.string.isRequired,
@@ -51,6 +51,6 @@ Event.propTypes = {
   day: PropTypes.string.isRequired,
   gig: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
-  isSelected: PropTypes.func.isRequired,
+  isSelected: PropTypes.bool.isRequired,
   stageId: PropTypes.string.isRequired,
 };
