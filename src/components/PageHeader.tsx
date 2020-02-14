@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Hero } from './Hero';
 import { StageFilter, Stage, StageId } from '../App';
+import { Hero } from '.';
 
 type PageHeaderProps = {
   onStageFilterClick: (stageId: StageId) => void;
@@ -63,8 +62,3 @@ export function PageHeader(props: PageHeaderProps) {
     </div>
   );
 }
-
-PageHeader.propTypes = {
-  onStageFilterClick: PropTypes.func.isRequired,
-  stageFilter: PropTypes.object,
-};

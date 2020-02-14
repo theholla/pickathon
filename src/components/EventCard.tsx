@@ -1,34 +1,32 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Stage, StageId, Event } from '../App';
+import { Stage, StageId, Performance } from '../App';
 
-export function EventCard(props: Event) {
+function getEventClass(isSelected: boolean) {
+  let className = '';
+  if (isSelected) className = ' selected-event';
+  return className;
+}
+
+function getStageClass(stageId: StageId) {
+  switch (stageId) {
+    case Stage.GALAXY_BARN:
+      return 'galaxy';
+    case Stage.LUCKY_BARN:
+      return 'lucky';
+    case Stage.MT_HOOD_STAGE:
+      return 'mthood';
+    case Stage.STARLIGHT_STAGE:
+      return 'starlight';
+    case Stage.TREELINE_STAGE:
+      return 'treeline';
+    case Stage.WOOD_STAGE:
+      return 'wood';
+    default:
+      return '';
+  }
+}
+export function EventCard(props: Performance) {
   const { artist, uuid, location, startTime, endTime, day, gig, onClick, isSelected, stageId } = props;
-
-  function getEventClass(isSelected: boolean) {
-    let className = '';
-    if (isSelected) className = ' selected-event';
-    return className;
-  }
-
-  function getStageClass(stageId: StageId) {
-    switch (stageId) {
-      case Stage.GALAXY_BARN:
-        return 'galaxy';
-      case Stage.LUCKY_BARN:
-        return 'lucky';
-      case Stage.MT_HOOD_STAGE:
-        return 'mthood';
-      case Stage.STARLIGHT_STAGE:
-        return 'starlight';
-      case Stage.TREELINE_STAGE:
-        return 'treeline';
-      case Stage.WOOD_STAGE:
-        return 'wood';
-      default:
-        return '';
-    }
-  }
 
   return (
     <div onClick={onClick} key={uuid} className={`event ${getStageClass(stageId)} ${getEventClass(isSelected)}`}>
@@ -41,16 +39,3 @@ export function EventCard(props: Event) {
     </div>
   );
 }
-
-EventCard.propTypes = {
-  artist: PropTypes.string.isRequired,
-  uuid: PropTypes.number.isRequired,
-  location: PropTypes.string.isRequired,
-  startTime: PropTypes.string.isRequired,
-  endTime: PropTypes.string.isRequired,
-  day: PropTypes.string.isRequired,
-  gig: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
-  isSelected: PropTypes.bool.isRequired,
-  stageId: PropTypes.string.isRequired,
-};

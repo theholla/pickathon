@@ -1,8 +1,7 @@
-import React, { Component, ReactElement } from 'react';
+import React, { Component } from 'react';
 import uuid from 'uuid/v4';
 import schedule from './lib/master-schedule.json';
-import { EventCard } from './components/EventCard';
-import { PageHeader } from './components/PageHeader';
+import { PageHeader, SearchBar, Results } from './components';
 import moment from 'moment';
 
 export enum Stage {
@@ -44,7 +43,7 @@ interface RawEvent {
 }
 
 export type StageId = keyof typeof Stage;
-export type Event = RawEvent & {
+export type Performance = RawEvent & {
   uuid: string;
   isSelected: boolean;
   onClick: () => void;
@@ -52,7 +51,7 @@ export type Event = RawEvent & {
 };
 
 type EventDictionary = {
-  [key: string]: Event;
+  [key: string]: Performance;
 };
 
 export interface StageFilter {
@@ -135,7 +134,7 @@ class App extends Component<{}, AppState> {
     return this.state.stageFilter[stageId];
   }
 
-  isEventTooOld(endDateTime: string): boolean {
+  isEventRecent(endDateTime: string): boolean {
     return (
       moment(endDateTime).utc() >
       moment()
@@ -144,44 +143,24 @@ class App extends Component<{}, AppState> {
     );
   }
 
-  toEventArray(eventDictionary: EventDictionary): Array<Event> {
+  toEventArray(eventDictionary: EventDictionary): Array<Performance> {
     return Object.values(eventDictionary);
   }
 
-  renderEmptyState(): ReactElement {
-    return <p className={'results-empty'}>Nothing to see here. Did you select a stage name?</p>;
-  }
-
   render() {
-    const eventArray = this.toEventArray(this.state.eventDictionary)
-      .filter(event => this.isStageSelected(event.stageId))
-      .filter(event => this.isEventTooOld(event.endDateTime))
-      .map(details => EventCard(details));
+    const performances = this.toEventArray(this.state.eventDictionary).filter(
+      event => this.isEventRecent(event.endDateTime) && this.isStageSelected(event.stageId)
+    );
 
-    const searchResultsArray = this.toEventArray(this.state.eventDictionary)
-      .filter(event => this.doesArtistMatchSearch(event.artist))
-      .filter(event => this.isEventTooOld(event.endDateTime))
-      .map(details => EventCard(details));
+    const searchResultsArray = this.toEventArray(this.state.eventDictionary).filter(
+      event => this.isEventRecent(event.endDateTime) && this.doesArtistMatchSearch(event.artist)
+    );
 
     return (
       <div>
         <PageHeader onStageFilterClick={this.onStageFilterClick.bind(this)} stageFilter={this.state.stageFilter} />
-        <div>
-          <form>
-            <label className={'search-container'}>
-              <input
-                className={'search-input'}
-                type="text"
-                placeholder="filter by artist"
-                onChange={this.handleSearchChange.bind(this)}
-              />
-            </label>
-          </form>
-        </div>
-        <div className={'results'}>
-          {searchResultsArray.length ? searchResultsArray : eventArray}
-          {!eventArray.length && !searchResultsArray.length && this.renderEmptyState()}
-        </div>
+        <SearchBar onSearch={this.handleSearchChange.bind(this)} />
+        <Results performances={performances} searchResults={searchResultsArray} />
       </div>
     );
   }
