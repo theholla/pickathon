@@ -4,8 +4,8 @@
   "description": "Mobile-friendly schedule explorer for the Pickathon music festival",
   "scripts": {
     "lint": "eslint .",
-    "start": "react-scripts start",
-    "build": "tsc",
+    "start": "tsc",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
