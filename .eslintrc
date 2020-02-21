@@ -6,18 +6,31 @@
       "jsx": true
     }
   },
+  "parser": "@typescript-eslint/parser",
   "globals": {
     "module": false
   },
   "env": {
     "browser": true
   },
-  "plugins": ["node", "react", "prettier", "css-modules"],
-  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:css-modules/recommended"],
+  "plugins": ["node", "react", "prettier", "@typescript-eslint", "css-modules"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:css-modules/recommended"
+  ],
+  "ignorePatterns": ["build", "node_modules", "src/vendor"],
   "rules": {
     "css-modules/no-unused-class": 2,
     "css-modules/no-undef-class": 2,
     "prettier/prettier": ["error"],
     "react/prop-types": ["warn"]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }

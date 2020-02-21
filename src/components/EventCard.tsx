@@ -1,13 +1,13 @@
 import React from 'react';
 import { Stage, StageId, Performance } from '../App';
 
-function getEventClass(isSelected: boolean) {
+function getEventClass(isSelected: boolean): string {
   let className = '';
   if (isSelected) className = ' selected-event';
   return className;
 }
 
-function getStageClass(stageId: StageId) {
+function getStageClass(stageId: StageId): string {
   switch (stageId) {
     case Stage.GALAXY_BARN:
       return 'galaxy';
@@ -25,7 +25,7 @@ function getStageClass(stageId: StageId) {
       return '';
   }
 }
-export function EventCard(props: Performance) {
+export function EventCard(props: Performance): JSX.Element {
   const { artist, uuid, location, startTime, endTime, day, gig, onClick, isSelected, stageId } = props;
 
   return (

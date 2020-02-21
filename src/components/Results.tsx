@@ -11,7 +11,7 @@ function renderEmptyState(): ReactElement {
   return <p className={'results-empty'}>Nothing to see here. Did you select a stage name?</p>;
 }
 
-export function Results(props: ResultsProps) {
+export function Results(props: ResultsProps): JSX.Element {
   const { performances, searchResults } = props;
   return (
     <div className={'results'}>

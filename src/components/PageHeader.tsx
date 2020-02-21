@@ -6,10 +6,10 @@ type PageHeaderProps = {
   onStageFilterClick: (stageId: StageId) => void;
   stageFilter: StageFilter;
 };
-export function PageHeader(props: PageHeaderProps) {
+export function PageHeader(props: PageHeaderProps): JSX.Element {
   const { onStageFilterClick, stageFilter } = props;
 
-  function isOn(stageId: Stage) {
+  function getButtonClass(stageId: Stage): string {
     if (stageFilter[stageId]) {
       return ' show-stage';
     }
@@ -22,38 +22,38 @@ export function PageHeader(props: PageHeaderProps) {
       <div>
         <div className={'stage-button-bar'}>
           <button
-            className={'galaxy stage-button' + isOn(Stage.GALAXY_BARN)}
-            onClick={() => onStageFilterClick(Stage.GALAXY_BARN)}
+            className={'galaxy stage-button' + getButtonClass(Stage.GALAXY_BARN)}
+            onClick={(): void => onStageFilterClick(Stage.GALAXY_BARN)}
           >
             Galaxy
           </button>
           <button
-            className={'lucky stage-button' + isOn(Stage.LUCKY_BARN)}
-            onClick={() => onStageFilterClick(Stage.LUCKY_BARN)}
+            className={'lucky stage-button' + getButtonClass(Stage.LUCKY_BARN)}
+            onClick={(): void => onStageFilterClick(Stage.LUCKY_BARN)}
           >
             Lucky
           </button>
           <button
-            className={'mthood stage-button' + isOn(Stage.MT_HOOD_STAGE)}
-            onClick={() => onStageFilterClick(Stage.MT_HOOD_STAGE)}
+            className={'mthood stage-button' + getButtonClass(Stage.MT_HOOD_STAGE)}
+            onClick={(): void => onStageFilterClick(Stage.MT_HOOD_STAGE)}
           >
             Hood
           </button>
           <button
-            className={'starlight stage-button' + isOn(Stage.STARLIGHT_STAGE)}
-            onClick={() => onStageFilterClick(Stage.STARLIGHT_STAGE)}
+            className={'starlight stage-button' + getButtonClass(Stage.STARLIGHT_STAGE)}
+            onClick={(): void => onStageFilterClick(Stage.STARLIGHT_STAGE)}
           >
             Star
           </button>
           <button
-            className={'treeline stage-button' + isOn(Stage.TREELINE_STAGE)}
-            onClick={() => onStageFilterClick(Stage.TREELINE_STAGE)}
+            className={'treeline stage-button' + getButtonClass(Stage.TREELINE_STAGE)}
+            onClick={(): void => onStageFilterClick(Stage.TREELINE_STAGE)}
           >
             Tree
           </button>
           <button
-            className={'wood stage-button' + isOn(Stage.WOOD_STAGE)}
-            onClick={() => onStageFilterClick(Stage.WOOD_STAGE)}
+            className={'wood stage-button' + getButtonClass(Stage.WOOD_STAGE)}
+            onClick={(): void => onStageFilterClick(Stage.WOOD_STAGE)}
           >
             Wood
           </button>

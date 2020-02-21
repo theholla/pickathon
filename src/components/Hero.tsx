@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Hero() {
+export function Hero(): JSX.Element {
   return (
     <div>
       <div className={'hero'} />

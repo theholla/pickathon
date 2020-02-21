@@ -147,7 +147,7 @@ class App extends Component<{}, AppState> {
     return Object.values(eventDictionary);
   }
 
-  render() {
+  render(): JSX.Element {
     const performances = this.toEventArray(this.state.eventDictionary).filter(
       event => this.isEventRecent(event.endDateTime) && this.isStageSelected(event.stageId)
     );

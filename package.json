@@ -3,9 +3,10 @@
   "version": "1.0.1",
   "description": "Mobile-friendly schedule explorer for the Pickathon music festival",
   "scripts": {
-    "lint": "eslint .",
-    "start": "tsc",
+    "lint": "eslint src/**/*.ts[x]",
+    "lint:fix": "eslint src/**/*.ts[x] --fix",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -33,6 +34,8 @@
   "devDependencies": {
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
     "acorn": "^6.4.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^2.10.0",

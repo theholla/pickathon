@@ -3,7 +3,7 @@ import React from 'react';
 interface SearchBarProps {
   onSearch: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
-export function SearchBar(props: SearchBarProps) {
+export function SearchBar(props: SearchBarProps): JSX.Element {
   return (
     <form>
       <label className={'search-container'}>
